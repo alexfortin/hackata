@@ -1,0 +1,277 @@
+<div class="menu">
+<div class="menu-wrapper">
+  <h2>Jamie Oliver's Fifteen</h2>
+
+  <ul class="menu-tabs pos-ul clearfix">
+  <li class="active" style="padding: 0 10px;"><a href="#lunch" data-toggle="tab">Lunch<span class="underline"></span></a></li>
+  <li style="padding: 0 10px 10px 0;"><a href="#dinner" data-toggle="tab">A La Carte<span class="underline"></span></a></li>
+  <li style="padding: 0 10px;"><a href="#pudding" data-toggle="tab">Pudding<span class="underline"></span></a></li>
+  <li style="padding: 0 10px;"><a href="#choice" data-toggle="tab">Chef's Choice<span class="underline"></span></a></li>
+  <li class="sunday_menu_tab" style="padding: 0 10px;"><a href="#sunday" data-toggle="tab">Sunday Menu<span class="underline"></span></a></li>
+  </ul>
+
+<div class="tab-content">
+<div class="tab-pane active fade in" id="lunch">
+      <p><strong>Starters</strong></p>
+<p>Delica pumpkin soup, sage, brown butter £6</p>
+<p>Beetroot, Tymsboro goat's cheese, pickled walnut, watercress £8</p>
+<p>Cured mackerel, Granny Smith apple, buttermilk, dill £9</p>
+<p>Smoked cod's roe, Clarence Court egg, radish £7</p>
+<p>Potted beef, turnips, horseradish, sourdough toast £7 </p>
+
+
+<p><strong>Mains</strong></p>
+<p>Gnocchi, onion squash, goat's curd, sage, brown butter £16 </p>
+<p>Malted spelt, violet artichoke, rainbow chard, goat's curd £12 </p>
+<p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+<p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+<p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+<p>Cod, Jerusalem artichoke, black truffle £26</p>
+<p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+<p>Pheasant, spelt, turnips, quince mustard £21</p>
+
+
+<p><strong>Sides</strong></p>
+<p>Crispy potato cake, Fifteen chilli ketchup £4</p>
+<p>Autumn salad leaves, apple & horseradish dressing £4</p>
+<p>Sweetheart cabbage, smoked anchovy, parsley salad £4</p>
+<p>Purple sprouting broccoli, garlic, miso, chives £5</p>
+
+<p><strong>Desserts</strong></p>
+<p>Sweetcorn ice cream, corn cake £7</p>
+<p>Caramelised filo pastry, raspberry, cream cheese, beetroot syrup £7</p>
+<p>Organic chocolate mousse, orange, crème fraÎche £6</p>
+<p>Fifteen carrot cake trifle £6 </p>
+<p>Selection of British cheese, apple chutney, house-made crackers £11</p>	                            	                        </div>
+<div class="tab-pane fade in" id="valentines">
+</div>
+<div class="tab-pane fade in" id="choice">
+<p style="text-align: center;"><strong>Chef&#8217;s choice menu £32<br />
+</strong></p>
+<p style="text-align: center;"><strong>With wine flight £52</strong></p>
+<p style="text-align: center;"><b style="color: #000000;">Our three-course chef’s choice menu lets you taste your way through some of our head chef&#8217;s favourite dishes from our a la carte menu </b></p>
+<p style="text-align: center;"><strong>Available Monday-Thursday</strong></p>
+<p style="text-align: center;">Homemade sourdough, butter</p>
+<p style="text-align: center;">***</p>
+<p style="text-align: center;">Beetroot, <span class="s1">Tymsboro goat’s cheese, pickled walnut, watercress</span></p>
+<p class="p2" style="text-align: center;"><span class="s1">Porta Leone Prosecco – Veneto, Italy</span></p>
+<p style="text-align: center;">***</p>
+<p style="text-align: center;">Middle White pork chop, pickled garlic, parsley root, kale</p>
+<p style="text-align: center;">Castello di Cigognola Barbera ‘Dodici Dodici’ 2012, Lombardy, Italy</p>
+<p style="text-align: center;">***</p>
+<p style="text-align: center;">Chocolate mousse, cranberry, brownie crumbs</p>
+<p style="text-align: center;">Contro Brachetto d&#8217;Acqui, 2013 – Piedmont, Italy</p>
+</div>
+
+<div class="tab-pane fade in" id="dinner">
+  	<style type="text/css" media="screen">
+#available-times{
+margin-bottom: 20px;
+margin-top: -20px;
+position: relative;
+}
+#available-times:after{
+content: '';
+position: absolute;
+bottom: -10px;
+left: 25%;
+right: 23%;
+border-bottom: 1px solid #007;
+}
+#available-times > span{
+font-size: 1.3em;
+}
+</style>
+<p id="available-times"><span>Available from:</span><br/>Mon to Sat 12:00 to 15:00 and 18:00 to 23:00
+<!-- <br/>Sunday 12:00 to 15:00 and 18:00 to 22:00 -->
+</p>
+<table class="menu-table">
+<tbody>
+                              <tr>
+<td>Homemade sourdough, butter</td>
+<td>&nbsp;£4</td>
+</tr>
+                <tr>
+<td>Puglian green olives</td>
+<td>&nbsp;£3</td>
+</tr>
+                <tr>
+<td>Lindisfarne oyster, Bergamot tea, gin</td>
+<td>&nbsp;£3 each</td>
+</tr>
+                <tr>
+<td>Short rib croquettes, tarragon, horseradish</td>
+<td>&nbsp;£5</td>
+</tr>
+                <tr>
+<td>---</td>
+<td>&nbsp;</td>
+</tr>
+                <tr>
+<td>Mushroom broth, cep raviolo, coriander </td>
+<td>&nbsp;£12</td>
+</tr>
+                <tr>
+<td>Beetroot, Tymsboro goat&#039;s cheese, pickled walnut, watercress</td>
+<td>&nbsp;£9</td>
+</tr>
+                <tr>
+<td>Dorset crab bisque, &#039;nduja, samphire</td>
+<td>&nbsp;£11</td>
+</tr>
+                <tr>
+<td>Cured mackerel, Granny Smith apple, buttermilk, dill</td>
+<td>&nbsp;£9</td>
+</tr>
+                <tr>
+<td>Smoked ham, violet artichoke, heritage carrots, mustard leaves</td>
+<td>&nbsp;£10</td>
+</tr>
+                <tr>
+<td>Crispy pig&#039;s cheek, Clarence Court egg, Braeburn apple, kimchi</td>
+<td>&nbsp;£9</td>
+</tr>
+                <tr>
+<td>---</td>
+<td>&nbsp;</td>
+</tr>
+                <tr>
+<td>Gnocchi, onion squash, goat&#039;s curd, sage, brown butter</td>
+<td>&nbsp;£16</td>
+</tr>
+                <tr>
+<td>Cod, Jerusalem artichoke, black truffle</td>
+<td>&nbsp;£26</td>
+</tr>
+                <tr>
+<td>Salmon, cauliflower, cucumber relish, dill</td>
+<td>&nbsp;£23</td>
+</tr>
+                <tr>
+<td>Middle White pork, pickled garlic, parsley root, cavolo nero</td>
+<td>&nbsp;£22</td>
+</tr>
+                <tr>
+<td>Short rib, girolles, Roscoff onion, mash, Montgomery Cheddar</td>
+<td>&nbsp;£25</td>
+</tr>
+                <tr>
+<td>Pheasant, spelt, turnips, quince mustard</td>
+<td>&nbsp;£21</td>
+</tr>
+                <tr>
+<td>---</td>
+<td>&nbsp;</td>
+</tr>
+                <tr>
+<td>Crispy potato cake, Fifteen chilli ketchup</td>
+<td>&nbsp;£4</td>
+</tr>
+                <tr>
+<td>Autumn salad, apple, horseradish dressing</td>
+<td>&nbsp;£4</td>
+</tr>
+                <tr>
+<td>Sweetheart cabbage, smoked anchovy, parsley salad</td>
+<td>&nbsp;£4</td>
+</tr>
+                <tr>
+<td>Purple sprouting broccoli, garlic miso </td>
+<td>&nbsp;£4</td>
+</tr>
+        </tbody>
+</table>
+</div>
+
+<div class="tab-pane fade in" id="pudding">
+      <table class="menu-table">
+<tbody>
+                              <tr>
+<td>Fifteen carrot cake trifle</td>
+<td>&nbsp;£6</td>
+</tr>
+                              <tr>
+<td>Caramelised filo pastry, cream cheese, beetroot syrup </td>
+<td>&nbsp;£7</td>
+</tr>
+                              <tr>
+<td>Sour cherry, goat&#039;s cheese ice cream, honeycomb</td>
+<td>&nbsp;£7</td>
+</tr>
+                              <tr>
+<td>Organic chocolate mousse, navelina orange, crème fraîche </td>
+<td>&nbsp;£8</td>
+</tr>
+                              <tr>
+<td>Rhubarb Eton mess, toasted almonds </td>
+<td>&nbsp;£7</td>
+</tr>
+                              <tr>
+<td>Selection of ice cream &amp; sorbet £3 each</td>
+<td>&nbsp;£3</td>
+</tr>
+                              <tr>
+<td>Selection of British cheeses &amp; crackers</td>
+<td>&nbsp;£11</td>
+</tr>
+                      </tbody>
+</table>
+
+      <p><strong>Ice Cream</strong></p>
+<table class="menu-table">
+<tbody>
+                              <tr>
+<td></td>
+<td>&nbsp;</td>
+</tr>
+                      </tbody>
+</table>
+
+</div>
+
+<div class="tab-pane fade in" id="sunday">
+      <P><strong><Available from 12pm - 3pm </strong></p>
+<p><strong>NIBBLES</strong></p>
+<p>Homemade sourdough, butter £4</p>
+<p>Puglian green olives £3</p>
+<p>Jersey Rocks oyster, elderflower granita, cucumber, Hendrick's gin £3 each</p>
+<p>Short rib croquettes, tarragon, horseradish £5</p>
+<br />
+<p><strong>STARTERS</strong></p>
+<p>Delica pumpkin soup, sage & brown butter £7</p>
+<p>Baby gem, slow-roasted tomatoes, Caesar dressing, garlic croutons £7</p>
+<p>Mackerel, cucumber, piccalilli £9</p>
+<p>Exmouth mussels, leeks, cider, lovage £9</p>
+<p>Poached Clarence Court eggs, smoked ham, spinach, hollandaise £8</p>
+<p>Potted short rib, bone marrow, beetroot, horseradish, grilled sourdough £9</p>
+<br />
+<p><strong>MAINS</strong></p>
+<p>Roasted hake, crushed Jersey Royals, mint, peas £17</p>
+<p>Spinach, onion & Ogleshield quiche, grilled baby gem salad £15</p>
+<br />
+<p><strong>ROASTS</strong></p>
+<p> Heritage tomato, spinach & goat's cheese quiche, sweetheart cabbage £14 </p>
+<p> Salmon, beetroot, smoked walnut, watercress £17 </p>
+<p>Roast middle white pork belly, apple sauce £17</p>
+<p>Roast Hereford rib of beef, horseradish cream £19</p>
+<p>Rotisserie chicken, herb vinaigrette, bread sauce £16 </p>
+<br />
+<p>Our roasts come served with crispy duck-fat potato cakes, seasonal vegetables, Yorkshire puddings & gravy</p>
+<br />
+<p><strong>SIDES</strong></p>
+<p>Cauliflower cheese £4</p>
+<p>Yukon Gold mas £4</p>
+<p>Autumn leaves, apple, horseradish £4</p>
+<p>Purple sprouting broccoli, smoked anchovy, crispy garlic £5</p>	                            	                        </div>
+
+</div>
+</div>
+
+<p>HEAD CHEF - ROBBIN HOLMGREN</p>
+
+<p><small>All profits allow Fifteen to use the magic of food to give unemployed young people a chance to have a better future. Fifteen is part of the Jamie Oliver Food Foundation, registered charity number 1094536</small></p>
+</div>
+</div>
+</div>
+
+</div>
