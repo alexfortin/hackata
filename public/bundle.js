@@ -109,7 +109,7 @@
 	  render: function render() {
 	    return React.createElement(
 	      Sticky,
-	      { stickyStyle: stickyStyle },
+	      { stickyStyle: stickyStyle, topOffset: 20 },
 	      React.createElement(
 	        'div',
 	        null,
@@ -121,7 +121,7 @@
 	            { id: 'target-menu' },
 	            React.createElement(
 	              'a',
-	              { href: '#tab' },
+	              { href: '#menu-tab' },
 	              'Menu'
 	            )
 	          ),
@@ -610,7 +610,7 @@
 
 
 	// module
-	exports.push([module.id, ".fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n   width: 100%;\n   background-color: #FFF;\n   z-index: 99;\n }\n\n h1#header {\n  width: 464px;\n  height: 164px;\n  display: block;\n  padding-bottom: 200px;\n  margin: 0 auto\n }\n\n #background-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 660px;\n  background: #dad7c8 no-repeat center top;\n  background-size: cover;\n  overflow: visible;\n }\n\n .menu-wrapper {\n   position: relative;\n   padding-bottom: 70px;\n }\n\n .menu {\n  position: relative;\n  top: 30px;\n  margin:auto;\n  max-width: 700px;\n  background: white;\n  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.25);\n }\n\n .menu p{\n  margin: 0;\n  font-size: 12px;\n  font-size: 1.2rem;\n  text-transform: none;\n  line-height: 30px;\n  text-align: center;\n }\n\n .menu-body {\n   padding-top: 60px;\n }\n\n #navbar {\n  display: inline;\n  margin: 0 auto;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n }\n\n #sticky {\n    padding: 0.5ex;\n    width: 600px;\n    background-color: #333;\n    color: #fff;\n    font-size: 2em;\n    border-radius: 0.5ex;\n}\n#sticky.stick {\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n    border-radius: 0 0 0.5em 0.5em;\n}\n\n.tabs-navigation {\n  padding: 0 20px;\n  max-height: 50px;\n  border-bottom: 1px solid #ddd;\n}\n.tabs-menu {\n  display: table;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin: auto;\n}\n.tabs-menu-item {\n  float: left;\n}\n.tabs-menu-item a {\n  display: block;\n  padding: 0 40px;\n  height: 50px;\n  line-height: 50px;\n  border-bottom: 0;\n  color: #a9a9a9;\n}\n.tabs-menu-item:not(.is-active) a:hover {\n  color: #3498db;\n}\n.tabs-menu-item.is-active a {\n  background: #fff;\n  border: 1px solid #ddd;\n  border-top: 2px solid #3498db;\n  border-bottom: 0;\n  color: #333;\n}\n.tabs-panel {\n  display: none;\n  padding: 30px;\n}\n.tabs-panel.is-active {\n  display: block;\n}\n", ""]);
+	exports.push([module.id, ".fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n   width: 100%;\n   background-color: #FFF;\n   z-index: 99;\n }\n\n h1#header {\n  width: 464px;\n  height: 164px;\n  display: block;\n  padding-bottom: 200px;\n  margin: 0 auto\n }\n\n #background-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 660px;\n  background: #dad7c8 no-repeat center top;\n  background-size: cover;\n  overflow: visible;\n }\n\n .menu-wrapper {\n   position: relative;\n   padding-bottom: 70px;\n }\n\n .menu {\n  position: relative;\n  top: 30px;\n  margin:auto;\n  max-width: 700px;\n  background: white;\n  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.25);\n }\n\n .menu p{\n  margin: 0;\n  font-size: 12px;\n  font-size: 1.2rem;\n  text-transform: none;\n  line-height: 30px;\n  text-align: center;\n }\n\n .menu-body {\n   padding-top: 60px;\n }\n\n #navbar {\n  display: inline;\n  margin: 0 auto;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n }\n\n #targets {\n   margin-top: 35px\n }\n\n #sticky {\n    padding: 0.5ex;\n    width: 600px;\n    background-color: #333;\n    color: #fff;\n    font-size: 2em;\n    border-radius: 0.5ex;\n}\n#sticky.stick {\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n    border-radius: 0 0 0.5em 0.5em;\n}\n\n.tabs-navigation {\n  padding: 0 20px;\n  max-height: 50px;\n}\n.tabs-menu {\n  display: table;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin: auto;\n}\n.tabs-menu-item {\n  float: left;\n\n}\n.tabs-menu-item a {\n  position: relative;\n  display: inline-block;\n  font-size: 14px;\n  font-size: 1.4rem;\n  text-transform: uppercase;\n  letter-spacing: 0.2em;\n  text-decoration: none;\n  margin-bottom: 10px;\n  padding: 0 15px;\n}\n.tabs-menu-item:not(.is-active) a:hover {\n  text-decoration: underline;\n}\n.tabs-menu-item.is-active a {\n  background: #fff;\n  border-bottom: 0;\n  color: #333;\n  text-decoration: underline;\n}\n.tabs-panel {\n  display: none;\n  padding: 30px;\n}\n.tabs-panel.is-active {\n  display: block;\n}\n", ""]);
 
 	// exports
 

@@ -45,11 +45,11 @@ var Tab = React.createClass({
 var NavBar = React.createClass({
   render: function (){
     return(
-      <Sticky stickyStyle={stickyStyle}>
+      <Sticky stickyStyle={stickyStyle} topOffset={20}>
         <div>
           <div id="targets">
             <div id="target-menu">
-                <a href="#tab">Menu</a>
+                <a href="#menu-tab">Menu</a>
             </div>
             <div id="target-contact">
                 <a href="#contact-info">Contact</a>
