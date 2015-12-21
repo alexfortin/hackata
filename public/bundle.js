@@ -77,12 +77,27 @@
 	      React.createElement(
 	        Tabs.Panel,
 	        { title: 'Tab #2' },
-	        'hi'
+	        React.createElement(Lunch, null)
 	      ),
 	      React.createElement(
 	        Tabs.Panel,
 	        { title: 'Tab #3' },
-	        'What'
+	        React.createElement(Lunch, null)
+	      ),
+	      React.createElement(
+	        Tabs.Panel,
+	        { title: 'Tab #1' },
+	        React.createElement(Lunch, null)
+	      ),
+	      React.createElement(
+	        Tabs.Panel,
+	        { title: 'Tab #2' },
+	        React.createElement(Lunch, null)
+	      ),
+	      React.createElement(
+	        Tabs.Panel,
+	        { title: 'Tab #3' },
+	        React.createElement(Lunch, null)
 	      )
 	    );
 	  }
@@ -152,8 +167,8 @@
 	  }
 	});
 
-	var Lunch = React.createClass({
-	  displayName: 'Lunch',
+	var Menu = React.createClass({
+	  displayName: 'Menu',
 
 	  render: function render() {
 	    return React.createElement(
@@ -163,255 +178,267 @@
 	      React.createElement(
 	        'div',
 	        { className: 'menu' },
+	        React.createElement(Tab, null)
+	      )
+	    );
+	  }
+	});
+
+	var Lunch = React.createClass({
+	  displayName: 'Lunch',
+
+	  render: function render() {
+	    return React.createElement(
+	      'div',
+	      null,
+	      React.createElement(
+	        'p',
+	        null,
 	        React.createElement(
-	          'p',
+	          'strong',
 	          null,
-	          React.createElement(
-	            'strong',
-	            null,
-	            'Mains'
-	          )
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Gnocchi, onion squash, goat'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Malted spelt, violet artichoke, rainbow chard'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Rotisserie chicken, baby gem, Caesar dressing £14'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Duck sausage, Castelluccio lentils, fennel slaw £15'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Cod, Jerusalem artichoke, black truffle £26'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Middle White pork chop, new-season garlic, Bobby beans £22'
-	        ),
-	        React.createElement(
-	          'p',
-	          null,
-	          'Pheasant, spelt, turnips, quince mustard £21'
+	          'Mains'
 	        )
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Gnocchi, onion squash, goat'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Malted spelt, violet artichoke, rainbow chard'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Rotisserie chicken, baby gem, Caesar dressing £14'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Duck sausage, Castelluccio lentils, fennel slaw £15'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Cod, Jerusalem artichoke, black truffle £26'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Middle White pork chop, new-season garlic, Bobby beans £22'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Pheasant, spelt, turnips, quince mustard £21'
 	      )
 	    );
 	  }
@@ -543,7 +570,7 @@
 	ReactDom.render(React.createElement(NavBar, null), document.getElementById('navbar'));
 	ReactDom.render(React.createElement(Header, null), document.getElementById('header'));
 	// ReactDom.render(<Lunch />, document.getElementById('lunch'));
-	ReactDom.render(React.createElement(Tab, null), document.getElementById('tab'));
+	ReactDom.render(React.createElement(Menu, null), document.getElementById('tab'));
 	// ReactDom.render(<Dinner />, document.getElementById('dinner'));
 	ReactDom.render(React.createElement(Contact, null), document.getElementById('contact-info'));
 	// ReactDom.render(<Map />, document.getElementById('map'));
@@ -583,7 +610,7 @@
 
 
 	// module
-	exports.push([module.id, ".fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n   width: 100%;\n   background-color: #FFF;\n   z-index: 99;\n }\n\n h1#header {\n  width: 464px;\n  height: 164px;\n  display: block;\n  padding-bottom: 200px;\n  margin: 0 auto\n }\n\n #background-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 660px;\n  background: #dad7c8 no-repeat center top;\n  background-size: cover;\n  overflow: visible;\n }\n\n .menu-wrapper {\n   position: relative;\n   padding-bottom: 70px;\n }\n\n .menu {\n  position: relative;\n  top: 30px;\n  margin:auto;\n  max-width: 700px;\n  background: white;\n  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.25);\n }\n\n .menu p{\n  margin: 0;\n  font-size: 12px;\n  font-size: 1.2rem;\n  text-transform: none;\n  line-height: 30px;\n  text-align: center;\n }\n\n .menu-body {\n   padding-top: 60px;\n }\n\n #navbar {\n  display: inline;\n  margin: 0 auto;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n }\n\n #sticky {\n    padding: 0.5ex;\n    width: 600px;\n    background-color: #333;\n    color: #fff;\n    font-size: 2em;\n    border-radius: 0.5ex;\n}\n#sticky.stick {\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n    border-radius: 0 0 0.5em 0.5em;\n}\n\n.tabs-navigation {\n  padding: 0 20px;\n  max-height: 50px;\n  border-bottom: 1px solid #ddd;\n}\n.tabs-menu {\n  display: table;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n.tabs-menu-item {\n  float: left;\n}\n.tabs-menu-item a {\n  display: block;\n  padding: 0 40px;\n  height: 50px;\n  line-height: 50px;\n  border-bottom: 0;\n  color: #a9a9a9;\n}\n.tabs-menu-item:not(.is-active) a:hover {\n  color: #3498db;\n}\n.tabs-menu-item.is-active a {\n  background: #fff;\n  border: 1px solid #ddd;\n  border-top: 2px solid #3498db;\n  border-bottom: 0;\n  color: #333;\n}\n.tabs-panel {\n  display: none;\n  padding: 30px;\n}\n.tabs-panel.is-active {\n  display: block;\n}\n", ""]);
+	exports.push([module.id, ".fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n   width: 100%;\n   background-color: #FFF;\n   z-index: 99;\n }\n\n h1#header {\n  width: 464px;\n  height: 164px;\n  display: block;\n  padding-bottom: 200px;\n  margin: 0 auto\n }\n\n #background-menu {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 660px;\n  background: #dad7c8 no-repeat center top;\n  background-size: cover;\n  overflow: visible;\n }\n\n .menu-wrapper {\n   position: relative;\n   padding-bottom: 70px;\n }\n\n .menu {\n  position: relative;\n  top: 30px;\n  margin:auto;\n  max-width: 700px;\n  background: white;\n  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.25);\n }\n\n .menu p{\n  margin: 0;\n  font-size: 12px;\n  font-size: 1.2rem;\n  text-transform: none;\n  line-height: 30px;\n  text-align: center;\n }\n\n .menu-body {\n   padding-top: 60px;\n }\n\n #navbar {\n  display: inline;\n  margin: 0 auto;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n }\n\n #sticky {\n    padding: 0.5ex;\n    width: 600px;\n    background-color: #333;\n    color: #fff;\n    font-size: 2em;\n    border-radius: 0.5ex;\n}\n#sticky.stick {\n    position: fixed;\n    top: 0;\n    z-index: 10000;\n    border-radius: 0 0 0.5em 0.5em;\n}\n\n.tabs-navigation {\n  padding: 0 20px;\n  max-height: 50px;\n  border-bottom: 1px solid #ddd;\n}\n.tabs-menu {\n  display: table;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin: auto;\n}\n.tabs-menu-item {\n  float: left;\n}\n.tabs-menu-item a {\n  display: block;\n  padding: 0 40px;\n  height: 50px;\n  line-height: 50px;\n  border-bottom: 0;\n  color: #a9a9a9;\n}\n.tabs-menu-item:not(.is-active) a:hover {\n  color: #3498db;\n}\n.tabs-menu-item.is-active a {\n  background: #fff;\n  border: 1px solid #ddd;\n  border-top: 2px solid #3498db;\n  border-bottom: 0;\n  color: #333;\n}\n.tabs-panel {\n  display: none;\n  padding: 30px;\n}\n.tabs-panel.is-active {\n  display: block;\n}\n", ""]);
 
 	// exports
 

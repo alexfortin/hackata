@@ -22,10 +22,19 @@ var Tab = React.createClass({
           <Lunch></Lunch>
         </Tabs.Panel>
         <Tabs.Panel title='Tab #2'>
-          hi
+        <Lunch></Lunch>
         </Tabs.Panel>
         <Tabs.Panel title='Tab #3'>
-          What
+        <Lunch></Lunch>
+        </Tabs.Panel>
+        <Tabs.Panel title='Tab #1'>
+          <Lunch></Lunch>
+        </Tabs.Panel>
+        <Tabs.Panel title='Tab #2'>
+        <Lunch></Lunch>
+        </Tabs.Panel>
+        <Tabs.Panel title='Tab #3'>
+        <Lunch></Lunch>
         </Tabs.Panel>
       </Tabs>
     );
@@ -77,62 +86,72 @@ var Header = React.createClass({
   }
 });
 
-var Lunch = React.createClass({
+var Menu = React.createClass({
   render: function (){
     return (
       <div className="menu-wrapper">
         <div id="background-menu"></div>
         <div className="menu">
-          <p><strong>Mains</strong></p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
-          <p>Gnocchi, onion squash, goat</p>
-          <p>Malted spelt, violet artichoke, rainbow chard</p>
-          <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
-          <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
-          <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
-          <p>Cod, Jerusalem artichoke, black truffle £26</p>
-          <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
-          <p>Pheasant, spelt, turnips, quince mustard £21</p>
+          <Tab></Tab>
         </div>
+      </div>
+    )
+  }
+});
+
+var Lunch = React.createClass({
+  render: function (){
+    return (
+      <div>
+        <p><strong>Mains</strong></p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
+        <p>Gnocchi, onion squash, goat</p>
+        <p>Malted spelt, violet artichoke, rainbow chard</p>
+        <p>Smoked salmon quiche, spinach, Ogleshield & baby gem salad £13</p>
+        <p>Rotisserie chicken, baby gem, Caesar dressing £14</p>
+        <p>Duck sausage, Castelluccio lentils, fennel slaw £15</p>
+        <p>Cod, Jerusalem artichoke, black truffle £26</p>
+        <p>Middle White pork chop, new-season garlic, Bobby beans £22</p>
+        <p>Pheasant, spelt, turnips, quince mustard £21</p>
       </div>
     )
   }
@@ -214,7 +233,7 @@ var Contact = React.createClass({
 ReactDom.render(<NavBar />, document.getElementById('navbar'));
 ReactDom.render(<Header />, document.getElementById('header'));
 // ReactDom.render(<Lunch />, document.getElementById('lunch'));
-ReactDom.render(<Tab />, document.getElementById('tab'));
+ReactDom.render(<Menu />, document.getElementById('tab'));
 // ReactDom.render(<Dinner />, document.getElementById('dinner'));
 ReactDom.render(<Contact />, document.getElementById('contact-info'));
 // ReactDom.render(<Map />, document.getElementById('map'));
