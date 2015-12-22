@@ -1,12 +1,10 @@
-// import { GoogleMapLoader, GoogleMap, Marker, SearchBox } from "react-google-maps";
-// import {default as FaSpinner} from "react-icons/lib/fa/spinner";
-// import {default as ScriptjsLoader} from "react-google-maps/lib/async/ScriptjsLoader";
 import './main.css';
 
 var React = require('react'),
  Sticky = require('react-sticky');
 var ReactDom = require('react-dom')
 var Tabs = require('react-simpletabs');
+
 
 var Tab = React.createClass({
   onBeforeChange: function(selectedIndex, $selectedPanel, $selectedTabMenu) {
@@ -50,6 +48,9 @@ var NavBar = React.createClass({
           <div id="targets">
             <div id="target-menu">
                 <a href="#menu-tab">Menu</a>
+            </div>
+            <div id="target-menu">
+                <a href="#location">Location and Hours</a>
             </div>
             <div id="target-contact">
                 <a href="#contact-info">Contact</a>
@@ -173,67 +174,36 @@ var Dinner = React.createClass({
   }
 });
 
-var Contact = React.createClass({
+var Location = React.createClass({
   render: function (){
     return (
-      <div className="menu">
-        <p><strong>Contact</strong></p>
-        <p>Hackata Sushi</p>
-        <p>Phone: (512) 670-2480</p>
-
+      <div className="location">
+        <p><strong>Location and Hours</strong></p>
+        <a href="https://goo.gl/9n80QB">900 E Pecan St, Pflugerville, TX 78660</a>
+        <p>Monday 9am-11am</p>
+        <p>Tuesday 9am-11am</p>
+        <p>Wednesday 9am-11am</p>
+        <p>Thursday 9am-11am</p>
+        <p>Friday 9am-11am</p>
       </div>
     )
   }
 });
 
-// var Map = React.createClass({
-//   render: function () {
-//     return (
-//       // <ScriptjsLoader
-      //   hostname={"maps.googleapis.com"}
-      //   pathname={"/maps/api/js"}
-      //   query={{v: `3.${ AsyncGettingStarted.version }`, libraries: "geometry,drawing,places"}}
-      //   loadingElement={
-      //   <div>
-      //   <FaSpinner />
-      //   </div>
-      //   }
-      //   containerElement={
-      //   <div />
-      //   }
-      //   googleMapElement={
-      //   <GoogleMap
-      //   defaultZoom={3}
-      //   defaultCenter={{lat: -25.363882, lng: 131.044922}}
-      //   >
-      //   </GoogleMap>
-      //   }
-      // />
-      // <GoogleMapLoader
-      //   containerElement={
-      //     <div
-      //       style={{
-      //         height: "100%",
-      //       }}
-      //     />
-      //   }
-      //   googleMapElement={
-      //     <GoogleMap
-      //       ref={(map) => console.log(map)}
-      //       defaultZoom={3}
-      //       defaultCenter={{lat: -25.363882, lng: 131.044922}}>
-      //     </GoogleMap>
-        // }
-      // />
-//     )
-//   }
-// })
+var Contact = React.createClass({
+  render: function (){
+    return (
+      <div className="contact">
+        <p><strong>Contact</strong></p>
+        <p>Phone: (512) 670-2480</p>
+      </div>
+    )
+  }
+});
 
 
 ReactDom.render(<NavBar />, document.getElementById('navbar'));
 ReactDom.render(<Header />, document.getElementById('header'));
-// ReactDom.render(<Lunch />, document.getElementById('lunch'));
 ReactDom.render(<Menu />, document.getElementById('tab'));
-// ReactDom.render(<Dinner />, document.getElementById('dinner'));
 ReactDom.render(<Contact />, document.getElementById('contact-info'));
-// ReactDom.render(<Map />, document.getElementById('map'));
+ReactDom.render(<Location />, document.getElementById('location-info'));
