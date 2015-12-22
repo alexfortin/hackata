@@ -33,6 +33,6 @@
     "webpack": "~1.12.9",
     "webpack-dev-server": "^1.7.0",
     "babel-preset-es2015": "^6.3.13",
-    "ejs": "~1.0.0",
+    "ejs": "~1.0.0"
   }
 }
