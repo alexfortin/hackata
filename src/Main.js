@@ -179,7 +179,7 @@ var Location = React.createClass({
     return (
       <div className="location">
         <p><strong>Location and Hours</strong></p>
-        <a href="https://goo.gl/9n80QB">900 E Pecan St, Pflugerville, TX 78660</a>
+        <a href="https://goo.gl/9n80QB">900 E Pecan St, Pflugerville, TX 78660 target="_blank"</a>
         <p>Monday 9am-11am</p>
         <p>Tuesday 9am-11am</p>
         <p>Wednesday 9am-11am</p>
