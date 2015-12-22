@@ -81,7 +81,7 @@ var Header = React.createClass({
   render: function (){
     return (
       <div>
-          <img src="../sushi_m.png"/>
+          <img src="sushi_m.png"/>
       </div>
     )
   }
