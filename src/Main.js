@@ -2,8 +2,9 @@ import '../css/main.css';
 
 var React = require('react'),
  Sticky = require('react-sticky');
-var ReactDom = require('react-dom')
+var ReactDom = require('react-dom');
 var Tabs = require('react-simpletabs');
+var Appetizers = require('./Appetizers');
 
 
 var Tab = React.createClass({
@@ -16,22 +17,22 @@ var Tab = React.createClass({
   render: function() {
     return (
       <Tabs tabActive={1} onBeforeChange={this.onBeforeChange} onAfterChange={this.onAfterChange}>
-        <Tabs.Panel title='Tab #1'>
+        <Tabs.Panel title='Appetizers'>
+          <Appetizers></Appetizers>
+        </Tabs.Panel>
+        <Tabs.Panel title='Rolls'>
+        <Lunch></Lunch>
+        </Tabs.Panel>
+        <Tabs.Panel title='Nagiri/Sashimi'>
+        <Lunch></Lunch>
+        </Tabs.Panel>
+        <Tabs.Panel title='Entrees'>
           <Lunch></Lunch>
         </Tabs.Panel>
-        <Tabs.Panel title='Tab #2'>
+        <Tabs.Panel title='Specials'>
         <Lunch></Lunch>
         </Tabs.Panel>
-        <Tabs.Panel title='Tab #3'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Tab #1'>
-          <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Tab #2'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Tab #3'>
+        <Tabs.Panel title='Deserts'>
         <Lunch></Lunch>
         </Tabs.Panel>
       </Tabs>
@@ -179,7 +180,7 @@ var Location = React.createClass({
     return (
       <div className="location">
         <p><strong>Location and Hours</strong></p>
-        <a href="https://goo.gl/9n80QB">900 E Pecan St, Pflugerville, TX 78660 target="_blank"</a>
+        <a href="https://goo.gl/9n80QB" target="_blank">900 E Pecan St, Pflugerville, TX 78660</a>
         <p>Monday 9am-11am</p>
         <p>Tuesday 9am-11am</p>
         <p>Wednesday 9am-11am</p>

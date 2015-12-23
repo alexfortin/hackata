@@ -72,6 +72,8 @@
  }
 
  .location {
+   position: relative;
+   background: #fff;
    border-bottom: 1px solid #111;
    padding: 25px 0px 25px;
    margin: 0 250px 0 250px
@@ -87,7 +89,10 @@
  }
 
  .contact {
+   position: relative;
+   background: #fff;
    padding: 25px 0px 25px;
+   margin: 0 250px;
  }
 
  #targets {
