@@ -5,6 +5,8 @@ var React = require('react'),
 var ReactDom = require('react-dom');
 var Tabs = require('react-simpletabs');
 var Appetizers = require('./Appetizers');
+var Navbar = require('./Navbar');
+
 
 
 var Tab = React.createClass({
@@ -41,24 +43,35 @@ var Tab = React.createClass({
 });
 
 
-var NavBar = React.createClass({
+var Intro = React.createClass({
   render: function (){
     return(
-      <Sticky stickyStyle={stickyStyle} topOffset={20}>
-        <div>
-          <div id="targets">
-            <div id="target-menu">
-                <a href="#menu-tab">Menu</a>
-            </div>
-            <div id="target-menu">
-                <a href="#location">Location and Hours</a>
-            </div>
-            <div id="target-contact">
-                <a href="#contact-info">Contact</a>
-            </div>
-          </div>
-        </div>
-    </Sticky>
+      <div>
+
+      </div>
+    )
+  }
+});
+
+
+var Header = React.createClass({
+  render: function (){
+    return (
+      <div >
+        <span id="target-menu">
+            <a href="#menu-tab">Menu</a>
+        </span>
+        <span id="target-menu">
+            <a href="#location">Location and Hours</a>
+        </span>
+        <img src="./assets/Logo.png"/>
+        <span id="target-contact">
+            <a href="#contact-info">Contact</a>
+        </span>
+        <span id="target-about">
+            <a href="#about-info">About</a>
+        </span>
+      </div>
     )
   }
 });
@@ -78,21 +91,31 @@ var stickyStyle = {
   zIndex: '1'
 };
 
-var Header = React.createClass({
-  render: function (){
-    return (
-      <div>
-          <img src="sushi_m.png"/>
-      </div>
-    )
-  }
-});
+var stickyHeaderStyle = {
+  position: 'fixed',
+  backgroundColor: 'white',
+  left: '0px',
+  right: '0px',
+  display: 'block',
+  zIndex: '1'
+};
+
+var headerStyle = {
+  // left: '0px',
+  // right: '0px',
+  // display: 'block',
+  // zIndex: '1'
+};
 
 var Menu = React.createClass({
   render: function (){
     return (
       <div className="menu-wrapper">
-        <div id="background-menu"></div>
+        <div>
+          <span>Menu</span>
+          <br></br>
+          <span>Download PDF</span>
+        </div>
         <div className="menu">
           <Tab></Tab>
         </div>
@@ -202,9 +225,21 @@ var Contact = React.createClass({
   }
 });
 
+var About = React.createClass({
+  render: function (){
+    return (
+      <div className="about">
+        <p>Some stuff</p>
+        <p>More Stuff</p>
+      </div>
+    )
+  }
+});
 
-ReactDom.render(<NavBar />, document.getElementById('navbar'));
-ReactDom.render(<Header />, document.getElementById('header'));
+
+ReactDom.render(<Intro />, document.getElementById('intro'));
+ReactDom.render(<Navbar />, document.getElementById('navbar'));
 ReactDom.render(<Menu />, document.getElementById('tab'));
 ReactDom.render(<Contact />, document.getElementById('contact-info'));
 ReactDom.render(<Location />, document.getElementById('location-info'));
+ReactDom.render(<About />, document.getElementById('about-info'));

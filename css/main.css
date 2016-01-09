@@ -7,7 +7,7 @@
    z-index: 99;
  }
 
- h1#header {
+ div#header {
   width: 464px;
   height: 164px;
   display: block;
@@ -15,7 +15,34 @@
   margin: 0 auto
  }
 
- #background-menu {
+ div#navbar span, img{
+   margin: 0px 40px 0px 40px;
+ }
+
+ div#navbar a{
+   font-family: Montserraf Regular;
+   size: 14px;
+   color: #333333;
+   letter-spacing: 2px;
+   text-decoration: none;
+   /*margin: 0px 30px 0px 30px;*/
+ }
+
+ div.navbar {
+   /*width: 20%;
+   margin: 0 auto;*/
+ }
+
+ div#navbar-body {
+   width: 50%;
+   margin: 0 auto;
+ }
+
+div#intro {
+  height: 630px;
+  background-image: url("./hero.jpg");
+}
+ /*#background-menu {
   position: absolute;
   left: 0;
   top: 0;
@@ -24,7 +51,15 @@
   background: #dad7c8 no-repeat center top;
   background-size: cover;
   overflow: visible;
- }
+ }*/
+
+
+.sticky {
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  marginLeft: 15px;
+  marginRight: 15px;
+}
 
  .menu-wrapper {
    position: relative;
@@ -53,14 +88,14 @@
    padding-top: 60px;
  }
 
- #navbar {
+ /*#navbar {
   display: inline;
   margin: 0 auto;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
- }
+ }*/
 
  #location {
   display: inline;
