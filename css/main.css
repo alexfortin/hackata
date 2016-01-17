@@ -1,11 +1,55 @@
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-   width: 100%;
-   background-color: #FFF;
-   z-index: 99;
+
+@font-face {
+	font-family: Montserrat Ultra Light;
+	src: url(../public/fonts/Montserrat-UltraLight.otf);
+	font-weight: normal;
+}
+
+ div#background {
+	 background-image: url("../public/assets/hero.jpg");
+	 background-position: center 0%;
+   background-repeat: no-repeat;
+	 height: 815px;
+	 width: 100%;
+	 position: absolute;
+	 z-index: -1;
+	 opacity: .6;
  }
+
+#misc-info {
+	position: relative;
+}
+
+.sticky {
+	position: 'fixed',
+	backgroun-color: 'white',
+  ma-width: '1440px',
+	top: '0px',
+  left: '0px',
+  right: '0px',
+  display: 'block',
+  z-index: '1',
+  margin: '0 auto',
+  height: '100px',
+}
+
+@media (min-width:961px) {
+
+}
+img.map-background {
+	background-repeat: no-repeat;
+	display: inline-block;
+	z-index: -1;
+	width: 50.45%;
+	opacity: .4;
+
+}
+
+span.title {
+	font-family: Montserrat,sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
 
  div#header {
   width: 464px;
@@ -15,33 +59,91 @@
   margin: 0 auto
  }
 
- div#navbar span, img{
-   margin: 0px 40px 0px 40px;
+ div#navbar span{
+   margin-right: 40px
+ }
+
+ div#navbar {
+   text-align: center;
  }
 
  div#navbar a{
-   font-family: Montserraf Regular;
-   size: 14px;
+   font-family: 'Montserrat',sans-serif;
+   font-size: 14px;
    color: #333333;
    letter-spacing: 2px;
    text-decoration: none;
-   /*margin: 0px 30px 0px 30px;*/
  }
 
  div.navbar {
-   /*width: 20%;
-   margin: 0 auto;*/
+   padding-top: 27px;
  }
 
- div#navbar-body {
-   width: 50%;
-   margin: 0 auto;
+div#navbar-body {
+	background-color: white;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-bottom: 53px;
  }
 
-div#intro {
-  height: 630px;
-  background-image: url("./hero.jpg");
+div#greeting {
+  height: 595px;
+	/*position: relative;*/
+  /*background-image: url("../public/assets/hero.jpg");
+  background-position: 227px -186px;
+  backgrofund-repeat: no-repeat;*/
 }
+
+/*div.greeting-img {
+  background-image: url("../public/assets/hero.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+	height: 630px;
+}*/
+
+div#greeting .greeting{
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+  height: auto;
+  margin: 0 auto;
+  padding: 193px;
+  position: relative;
+}
+
+div#greeting .greeting-title {
+  font-family: Montserrat Ultra Light;
+  font-size: 50px;
+}
+
+div#greeting .greeting-body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+div#greeting .menu-link, a {
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 55px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+div#greeting a {
+  border: 1px solid;
+  padding: 20px 60px;
+}
+
+div#greeting a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
  /*#background-menu {
   position: absolute;
   left: 0;
@@ -61,74 +163,97 @@ div#intro {
   marginRight: 15px;
 }
 
+div.menu {
+    margin-top: -20px;
+}
+
  .menu-wrapper {
-   position: relative;
-   padding-bottom: 70px;
+   margin: 0 auto;
+   text-align: center;
  }
 
- .menu {
-  position: relative;
-  top: 30px;
-  margin:auto;
-  max-width: 700px;
-  background: white;
-  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.15), 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
- }
+span.menu-title {
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-family: Montserrat Ultra Light;
+}
 
- .menu p{
-  margin: 0;
-  font-size: 12px;
-  font-size: 1.2rem;
-  text-transform: none;
-  line-height: 30px;
-  text-align: center;
- }
+span.menu-download {
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  color: #999999
+}
 
- .menu-body {
+ div.menu-body {
    padding-top: 60px;
+   max-width: 1440px;
+   margin: 0 auto;
+   background-color: white;
  }
 
- /*#navbar {
-  display: inline;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
- }*/
-
- #location {
-  display: inline;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+ #navbar {
+   margin: 0 auto;
  }
 
- .location {
-   position: relative;
-   background: #fff;
-   border-bottom: 1px solid #111;
-   padding: 25px 0px 25px;
-   margin: 0 250px 0 250px
+ .misc-info div{
+   /*height: 630px;
+   padding: 10px;*/
  }
 
- #contact {
-  display: inline;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+ #misc-info {
+   margin: 0 auto;
+   max-width: 1440px;
  }
 
- .contact {
-   position: relative;
-   background: #fff;
-   padding: 25px 0px 25px;
-   margin: 0 250px;
+div.location {
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	left: 8%;
+	width: 50%;
+}
+
+.location-name {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #FFFFFF;
+  line-height: 20px;
+	font-weight: 900;
+}
+
+.location-address {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #FEFEFE;
+  line-height: 20px;
+}
+
+div.location a{
+	color: #FEFEFE
+}
+
+ img.contact-background {
+	 background: linear-gradient(
+       rgba(255, 0, 0, 0.45),
+       rgba(255, 0, 0, 0.45)
+     );
+	display: inline-block;
+	z-index: -1;
+	width: 49.5%;
+	/*background-position: 728px 0px;*/
+	/*top: 0px;*/
  }
+
+div.contact {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Montserrat,sans-serif;
+}
 
  #targets {
    margin-top: 35px
@@ -149,6 +274,10 @@ div#intro {
     border-radius: 0 0 0.5em 0.5em;
 }
 
+div.tabs {
+    height: 620px;
+}
+
 .tabs-navigation {
   padding: 0 20px;
   max-height: 50px;
@@ -159,6 +288,7 @@ div#intro {
   padding: 0;
   margin: 0;
   margin: auto;
+  margin-bottom: 80px;
 }
 .tabs-menu-item {
   float: left;
@@ -174,6 +304,7 @@ div#intro {
   text-decoration: none;
   margin-bottom: 10px;
   padding: 0 15px;
+  color: #333;
 }
 .tabs-menu-item:not(.is-active) a:hover {
   text-decoration: underline;
@@ -190,4 +321,38 @@ div#intro {
 }
 .tabs-panel.is-active {
   display: block;
+}
+
+#seo {
+	height: 190px;
+	background-color: black;
+  opacity: .9;
+	max-width: 1440px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+#about-info {
+	position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img.about-background {
+  height: 440px;
+  width: 100%;
+  position: absolute;
+  opacity: .4;
+  z-index: -1;
+}
+
+.about-text {
+	margin: 0 auto;
+	padding-top: 110px;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+	color: #FFFFFF;
+	max-width: 770px;
 }

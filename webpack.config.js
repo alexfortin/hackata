@@ -8,7 +8,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
-    publicPath: '/public/'
   },
   plugins: [
     new webpack.optimize.DedupePlugin(),
@@ -34,13 +33,18 @@ module.exports = {
         query: {
          cacheDirectory: true,
          presets: ['react', 'es2015'] }},
-       { test: /\.(jpe|jpg|png|woff2|eot|ttf|svg)(\?.*$|$)/,
-         loader: 'url-loader?limit=100000' },
+       { test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+            'file?hash=sha512&digest=hex&name=[hash].[ext]',
+            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ] },
        { test: /\.scss?$/,
          loader: 'style!css!sass',
          include: path.join(__dirname, 'css') },
        { test: /\.css$/,
-         loader: 'style!css' }
+         loader: 'style!css' },
+       { test: /\.(otf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: "file-loader" }
     ]
   }
 };
