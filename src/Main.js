@@ -1,4 +1,4 @@
-import '../css/main.css';
+import '../public/main.css';
 
 var React = require('react'),
  Sticky = require('react-sticky');
