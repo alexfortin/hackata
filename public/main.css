@@ -5,8 +5,14 @@
 	font-weight: normal;
 }
 
- div#background {
-	 background-image: url("hero.jpg");
+	div#intro {
+		position: relative;
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+
+ img#background {
+	 /*background-image: url("hero.jpg");*/
 	 background-position: center 0%;
    background-repeat: no-repeat;
 	 height: 815px;
@@ -42,7 +48,6 @@ img.map-background {
 	z-index: -1;
 	width: 50.45%;
 	opacity: .4;
-
 }
 
 span.title {
@@ -234,15 +239,9 @@ div.location a{
 }
 
  img.contact-background {
-	 background: linear-gradient(
-       rgba(255, 0, 0, 0.45),
-       rgba(255, 0, 0, 0.45)
-     );
 	display: inline-block;
 	z-index: -1;
 	width: 49.5%;
-	/*background-position: 728px 0px;*/
-	/*top: 0px;*/
  }
 
 div.contact {
@@ -355,4 +354,56 @@ img.about-background {
   line-height: 24px;
 	color: #FFFFFF;
 	max-width: 770px;
+}
+
+@media (max-width:760px) {
+	img.contact-background {
+	 	display: block;
+		width: 100%;
+	 	z-index: -1;
+  }
+	img.map-background {
+		background-repeat: no-repeat;
+		display: block;
+		width: 100%;
+		z-index: -1;
+		opacity: .4;
+	}
+
+	div.contact {
+		top: 30%;
+		text-align: center;
+		color: #FFFFFF;
+		font-family: Montserrat,sans-serif;
+	}
+
+	div.location {
+		text-align: center;
+    left: 3%;
+    width: 100%;
+	}
+
+	.location-name {
+	  font-size: 16px;
+	  font-family: 'Work Sans', sans-serif;
+	  color: #FFFFFF;
+	  line-height: 20px;
+		font-weight: 900;
+	}
+
+	.location-address {
+	  font-size: 16px;
+	  font-family: 'Work Sans', sans-serif;
+	  color: #FEFEFE;
+	  line-height: 20px;
+	}
+
+	div.location a{
+		color: #FEFEFE
+	}
+
+	div.contact {
+		margin-top: 50%;
+		left: 30%;
+	}
 }
