@@ -15,38 +15,6 @@ var NavDropdown = require("react-bootstrap/lib/NavDropdown");
 var MenuItem = require("react-bootstrap/lib/MenuItem");
 var NavBarTest = require('./CollapsibleNavbar');
 
-module.exports= React.createClass({
-  render: function (){
-    return (
-      <div className="misc-info">
-        <div id="location-info" className="location">
-          <Location></Location>
-        </div>
-        <div id="contact-info" className="contact-info">
-          <Contact></Contact>
-        </div>
-      </div>
-    )
-  }
-});
-
-const navbarInstance = (
-    <Navbar fixedTop toggleNavKey={0} className="navbar-border">
-        <Navbar.Header>
-            Hakata Sushi
-            <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-            <Nav>
-                <MenuItem eventKey={1} href="#misc-info">Location</MenuItem>
-                <MenuItem eventKey={2} href="#">Link Right</MenuItem>
-            </Nav>
-        </Navbar.Collapse>
-    </Navbar>
-);
-
-
-
 ReactDom.render(<Navbar2 />, document.getElementById('navbar'));
 ReactDom.render(<NavBarTest/>, document.getElementById('navbar2'));
 ReactDom.render(<Menu />, document.getElementById('tab'));
