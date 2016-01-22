@@ -96,12 +96,12 @@ var Appetizers = React.createClass({
     return (
       <div className="menu">
         <p>
-          <span>Sushi £7</span>
-          <span>Ice Cream Sushi £7</span>
+          <span>Sushi </span><span>$8 </span>
+          <span>Sushi </span><span>$8 </span>
         </p>
         <p>
-          <span>Brownies £7</span>
-          <span>Bae £7</span>
+            <span>Sushi </span><span>$8 </span>
+            <span>Sushi </span><span>$8 </span>
         </p>
       </div>
     )
@@ -117,26 +117,26 @@ var Tab = React.createClass({
   },
   render: function() {
     return (
-      <Tabs tabActive={1} onBeforeChange={this.onBeforeChange} onAfterChange={this.onAfterChange}>
-        <Tabs.Panel title='Appetizers'>
-          <Appetizers></Appetizers>
-        </Tabs.Panel>
-        <Tabs.Panel title='Rolls'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Nagiri/Sashimi'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Entrees'>
-          <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Specials'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-        <Tabs.Panel title='Deserts'>
-        <Lunch></Lunch>
-        </Tabs.Panel>
-      </Tabs>
+        <Tabs tabActive={1} onBeforeChange={this.onBeforeChange} onAfterChange={this.onAfterChange}>
+            <Tabs.Panel title='Appetizers'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Rolls'>
+                 <Lunch></Lunch>
+            </Tabs.Panel>
+            <Tabs.Panel title='Nagiri/Sashimi'>
+                 <Lunch></Lunch>
+            </Tabs.Panel>
+            <Tabs.Panel title='Entrees'>
+                <Lunch></Lunch>
+            </Tabs.Panel>
+            <Tabs.Panel title='Specials'>
+                <Lunch></Lunch>
+            </Tabs.Panel>
+            <Tabs.Panel title='Deserts'>
+                <Lunch></Lunch>
+            </Tabs.Panel>
+        </Tabs>
     );
   }
 });
