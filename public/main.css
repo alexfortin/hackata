@@ -258,6 +258,10 @@ div.location a{
 	color: #FEFEFE
 }
 
+div.hours {
+    padding-bottom: 35px;
+}
+
  img.contact-background {
 	display: inline-block;
 	z-index: -1;
@@ -272,6 +276,9 @@ div.contact {
 	text-align: center;
 	color: #FFFFFF;
 	font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 
  #targets {
