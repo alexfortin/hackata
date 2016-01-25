@@ -4,8 +4,7 @@ module.exports= React.createClass({
   render: function (){
     return (
       <div className="greeting">
-        <div className="greeting-img"></div>
-        <div>
+        <div className="greeting-container">
           <span className="greeting-title">Something Awesome</span>
           <br></br>
           <span className="greeting-body">I dont know what Im doing</span>

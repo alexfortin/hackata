@@ -82,19 +82,12 @@ div#navbar-body {
  }
 
 div#greeting {
-  height: 595px;
+  /*height: 595px;*/
 	/*position: relative;*/
   /*background-image: url("../public/assets/hero.jpg");
   background-position: 227px -186px;
   backgrofund-repeat: no-repeat;*/
 }
-
-/*div.greeting-img {
-  background-image: url("../public/assets/hero.jpg");
-  position: absolute;
-  background-repeat: no-repeat;
-	height: 630px;
-}*/
 
 div#greeting .greeting{
   color: #FFFFFF;
@@ -160,6 +153,43 @@ body {
 
 div.menu {
     margin-top: -20px;
+    max-width: 970px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+span.menu-item-name {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+p.menu-item {
+    width: 50%;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px
+}
+
+span.menu-price {
+    width: 50%;
+    display: inline-block;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+span.menu-item-description {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
 }
 
  .menu-wrapper {
@@ -356,6 +386,29 @@ div.show-nav {
 
 @media (max-width:760px) {
 
+    div#greeting .greeting {
+        color: #FFF;
+        letter-spacing: 2px;
+        text-align: center;
+        height: 500px;
+        margin: 0 auto;
+        position: relative;
+        padding: initial;
+    }
+
+    div.greeting-container {
+        padding-top: 120px;
+    }
+
+    select.tabs-menu {
+        background-color: white;
+        width: 210px;
+        height: 40px;
+        padding-left: 20px;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+
     div.navbar-header {
         margin: 0 auto;
         text-align: center;
@@ -374,6 +427,12 @@ div.show-nav {
         display: none;
     }
 
+    p.menu-item {
+        width: 100%;
+        display: inline-block;
+        padding-right: 30px;
+        padding-left: 20px;
+    }
 
 	img.contact-background {
 	 	display: block;
