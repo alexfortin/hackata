@@ -234,7 +234,7 @@ span.menu-download {
 div.location {
 	position: absolute;
 	text-align: center;
-	top: 30%;
+	top: 40%;
 	left: 8%;
 	width: 50%;
 }
@@ -455,9 +455,10 @@ div.show-nav {
 	}
 
 	div.location {
-		text-align: center;
-    left: 3%;
+    text-align: center;
+    left: 0%;
     width: 100%;
+    top: 21%;
 	}
 
 	.location-name {
@@ -481,6 +482,6 @@ div.show-nav {
 
 	div.contact {
 		margin-top: 50%;
-		left: 30%;
+		left: 23%;
 	}
 }
