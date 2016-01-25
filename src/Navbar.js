@@ -10,7 +10,7 @@ module.exports= React.createClass({
             <a href="#menu-tab">MENU</a>
         </span>
         <span id="target-menu">
-            <a href="#location">LOCATION AND HOURS</a>
+            <a href="#location-info">LOCATION AND HOURS</a>
         </span>
         <span className="title">Hackata Sushi</span>
         <span id="target-contact">

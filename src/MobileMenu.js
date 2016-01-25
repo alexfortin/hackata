@@ -9,7 +9,6 @@ module.exports =  React.createClass({
                 <TabDropdown.Panel title='Appetizers'>
                     <Appetizers></Appetizers>
                     <Appetizers></Appetizers>
-                    <Appetizers></Appetizers>
                 </TabDropdown.Panel>
                 <TabDropdown.Panel title='Rolls'>
                     <Appetizers></Appetizers>
