@@ -497,9 +497,8 @@ select.tabs-menu {
         font-family: Montserrat,sans-serif;
         font-size: 24px;
         font-weight: 700;
-        padding: 25px;
+        padding: 25px 25px 25px 75px
         background-color: white;
-        padding-left: 85px;
     }
 
     div.show-mobile {
