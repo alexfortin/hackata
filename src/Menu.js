@@ -18,15 +18,9 @@ module.exports= React.createClass({
 });
 
 var Tab = React.createClass({
-  onBeforeChange: function(selectedIndex, $selectedPanel, $selectedTabMenu) {
-    console.log('before the tab ' + selectedIndex);
-  },
-  onAfterChange: function(selectedIndex, $selectedPanel, $selectedTabMenu) {
-    console.log('after the tab ' + selectedIndex);
-  },
   render: function() {
     return (
-        <Tabs tabActive={1} onBeforeChange={this.onBeforeChange} onAfterChange={this.onAfterChange}>
+        <Tabs tabActive={1}>
             <Tabs.Panel title='Appetizers'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>

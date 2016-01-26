@@ -12,7 +12,7 @@ module.exports= React.createClass({
         <span id="target-menu">
             <a href="#location-info">LOCATION AND HOURS</a>
         </span>
-        <span className="title">Hackata Sushi</span>
+        <span className="title">Hakata Sushi</span>
         <span id="target-contact">
             <a href="#contact-info">CONTACT</a>
         </span>
@@ -26,16 +26,17 @@ module.exports= React.createClass({
 
 
 var stickyNavBar = {
-  position: 'fixed',
-  backgroundColor: 'white',
-  maxWidth: '1440px',
-  top: '0px',
-  left: '0px',
-  right: '0px',
-  display: 'block',
-  zIndex: '1',
-  margin: '0 auto',
-  height: '100px',
+    position: 'fixed',
+    backgroundColor: 'white',
+    maxWidth: '1440px',
+    top: '0px',
+    left: '0px',
+    right: '0px',
+    display: 'block',
+    zIndex: '1',
+    margin: '0 auto',
+    height: '100px',
+    paddingTop: '25px'
 };
 
 var stickyHeaderStyle = {

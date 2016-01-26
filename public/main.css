@@ -78,7 +78,7 @@ div#navbar-body {
 	background-color: white;
 	max-width: 1440px;
 	margin: 0 auto;
-	padding-bottom: 53px;
+	padding-bottom: 25px;
  }
 
 div#greeting {
@@ -152,11 +152,10 @@ body {
 }
 
 div.menu {
-    margin-top: -20px;
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 50px;
     text-align: left;
+    padding: 0px 60px 20px;
 }
 
 span.menu-item-name {
@@ -171,16 +170,15 @@ span.menu-item-name {
 p.menu-item {
     width: 50%;
     display: inline-block;
-    padding-right: 30px;
-    padding-left: 20px;
     vertical-align: top;
     margin-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 span.menu-price {
     width: 25%;
     display: inline-block;
-    padding-right: 10px;
     text-align: right;
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
@@ -190,40 +188,6 @@ span.menu-price {
 span.menu-item-description {
     width: 75%;
     display: block;
-    text-align: left;
-    font-size: 14px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-span.menu-item-name-last {
-    width: 50%;
-    display: inline-block;
-    text-align: left;
-    font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 900;
-}
-
-p.menu-item-last {
-    width: 50%;
-    display: inline-block;
-    padding-right: 30px;
-    padding-left: 20px
-}
-
-span.menu-price-last {
-    width: 50%;
-    display: inline-block;
-    padding-right: 10px;
-    text-align: right;
-    font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 900;
-}
-
-span.menu-item-description-last {
-    width: 100%;
-    display: inline-block;
     text-align: left;
     font-size: 14px;
     font-family: 'Work Sans', sans-serif;
@@ -451,7 +415,7 @@ img.svg-image{
 
 select.tabs-menu {
     background-color: white;
-    width: 210px;
+    width: 290px;
     height: 40px;
     padding-left: 15px;
     font-family: 'Work Sans', sans-serif;
@@ -485,7 +449,6 @@ select.tabs-menu {
         background-color: white;
         width: 210px;
         height: 40px;
-        padding-left: 20px;
         font-family: 'Work Sans', sans-serif;
     }
 
@@ -511,8 +474,7 @@ select.tabs-menu {
     p.menu-item {
         width: 100%;
         display: inline-block;
-        padding-right: 30px;
-        padding-left: 20px;
+        padding: 0;
     }
 
 	img.contact-background {
