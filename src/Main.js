@@ -47,7 +47,7 @@ var CollapsibleNavbar = require('./CollapsibleNavbar');
 ReactDom.render(<Navbar />, document.getElementById('navbar'));
 ReactDom.render(<CollapsibleNavbar/>, document.getElementById('CollapsibleNavbar'));
 ReactDom.render(<Greeting/>, document.getElementById('greeting'));
-ReactDom.render(<Tab />, document.getElementById('tab'));
+ReactDom.render(<MobileMenu />, document.getElementById('tab'));
 ReactDom.render(<MobileMenu />, document.getElementById('tab-dropdown'));
 ReactDom.render(<LocationAndContact />, document.getElementById('misc-info'));
 ReactDom.render(<About />, document.getElementById('about-info'));

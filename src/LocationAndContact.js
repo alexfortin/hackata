@@ -41,7 +41,7 @@ var Contact = React.createClass({
         </div>
         <div className="phone">
           <p>Contact Us</p>
-          <p>(512)670-2480</p>
+          <p>(512) 670-2480</p>
         </div>
       </div>
     )

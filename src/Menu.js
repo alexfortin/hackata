@@ -29,22 +29,41 @@ var Tab = React.createClass({
         <Tabs tabActive={1} onBeforeChange={this.onBeforeChange} onAfterChange={this.onAfterChange}>
             <Tabs.Panel title='Appetizers'>
                 <Appetizers></Appetizers>
-                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Entree'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
-            <Tabs.Panel title='Rolls'>
+            <Tabs.Panel title='Nigiri'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
-            <Tabs.Panel title='Nagiri/Sashimi'>
+            <Tabs.Panel title='Sashimi'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
-            <Tabs.Panel title='Entrees'>
+            <Tabs.Panel title='Standard Rolls and Hand Rolls'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
-            <Tabs.Panel title='Specials'>
+            <Tabs.Panel title='Fresh Rolls'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
-            <Tabs.Panel title='Deserts'>
+            <Tabs.Panel title='Baked Rolls'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Tempura Rolls'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Lunch Specials'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Donburi'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Noodles'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Kids Menu'>
+                <Appetizers></Appetizers>
+            </Tabs.Panel>
+            <Tabs.Panel title='Dessert'>
                 <Appetizers></Appetizers>
             </Tabs.Panel>
         </Tabs>

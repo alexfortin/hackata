@@ -153,13 +153,14 @@ body {
 
 div.menu {
     margin-top: -20px;
-    max-width: 970px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-left: 50px;
+    text-align: left;
 }
 
 span.menu-item-name {
-    width: 50%;
+    width: 75%;
     display: inline-block;
     text-align: left;
     font-size: 15px;
@@ -171,11 +172,13 @@ p.menu-item {
     width: 50%;
     display: inline-block;
     padding-right: 30px;
-    padding-left: 20px
+    padding-left: 20px;
+    vertical-align: top;
+    margin-bottom: 15px;
 }
 
 span.menu-price {
-    width: 50%;
+    width: 25%;
     display: inline-block;
     padding-right: 10px;
     text-align: right;
@@ -185,6 +188,40 @@ span.menu-price {
 }
 
 span.menu-item-description {
+    width: 75%;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+span.menu-item-name-last {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+p.menu-item-last {
+    width: 50%;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px
+}
+
+span.menu-price-last {
+    width: 50%;
+    display: inline-block;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+span.menu-item-description-last {
     width: 100%;
     display: inline-block;
     text-align: left;
@@ -301,7 +338,11 @@ div.contact {
 }
 
 div.tabs {
-    height: 620px;
+    padding-top: 30px;
+}
+
+article.tab-panel {
+    margin-top: -20px;
 }
 
 .tabs-navigation {
@@ -359,13 +400,13 @@ div.tabs {
 }
 
 #about-info {
-	position: relative;
+    position: relative;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 img.about-background {
-  height: 440px;
+  height: 400px;
   width: 100%;
   position: absolute;
   opacity: .4;
@@ -391,7 +432,40 @@ div.show-nav {
     display: initial;
 }
 
+div.about {
+    height: 400px;
+}
+
+div.svg {
+    height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #0C090A;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+img.svg-image{
+   padding: 20px 20px;
+}
+
+select.tabs-menu {
+    background-color: white;
+    width: 210px;
+    height: 40px;
+    padding-left: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
 @media (max-width:760px) {
+    div.tabs {
+        padding-top: 30px;
+    }
+
+    div.svg {
+        padding: 20px 20px;
+        text-align: center;
+    }
 
     div#greeting .greeting {
         color: #FFF;
