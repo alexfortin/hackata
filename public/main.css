@@ -435,6 +435,10 @@ select.tabs-menu {
 
 @media (max-width:760px) {
 
+    span.menu-item-description {
+        width: 100%;
+    }
+
     button.navbar-toggle {
         position: relative;
         float: right;
