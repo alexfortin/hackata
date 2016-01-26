@@ -271,7 +271,7 @@ div.location a{
 }
 
 div.hours {
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
  img.contact-background {
@@ -282,7 +282,7 @@ div.hours {
 
 div.contact {
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 50%;
 	width: 50%;
 	text-align: center;
@@ -531,7 +531,7 @@ select.tabs-menu {
 	div.contact {
 		color: #FFFFFF;
 		font-family: Montserrat,sans-serif;
-        margin-top: 50%;
+        margin-top: 47%;
         text-align: center;
         left: 0;
         width: 100%;
