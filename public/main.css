@@ -421,10 +421,6 @@ div.svg {
     position: relative;
 }
 
-img.svg-image{
-   padding: 20px 50px 0px 20px;
-}
-
 select.tabs-menu {
     background-color: white;
     width: 290px;
@@ -434,6 +430,11 @@ select.tabs-menu {
 }
 
 @media (max-width:760px) {
+
+    a.up-arrow {
+        right: 45%;
+    }
+
     div.tabs {
         padding-top: 30px;
     }
