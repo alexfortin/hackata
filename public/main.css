@@ -22,13 +22,32 @@
 	 opacity: .6;
  }
 
+ div.about-text {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 16px;
+     line-height: 24px;
+ }
+
+ a.up-arrow {
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     background-color: #e63a00;
+     position: absolute;
+     bottom: 75px;
+     right: 48%;
+ }
+
+ img.up-svg {
+     position: absolute;
+     right: 16px;
+     top: 15px;
+ }
+
 #misc-info {
 	position: relative;
 }
 
-@media (min-width:961px) {
-
-}
 img.map-background {
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -80,14 +99,6 @@ div#navbar-body {
 	margin: 0 auto;
 	padding-bottom: 25px;
  }
-
-div#greeting {
-  /*height: 595px;*/
-	/*position: relative;*/
-  /*background-image: url("../public/assets/hero.jpg");
-  background-position: 227px -186px;
-  backgrofund-repeat: no-repeat;*/
-}
 
 div#greeting .greeting{
   color: #FFFFFF;
@@ -407,10 +418,11 @@ div.svg {
     background-color: #0C090A;
     padding-left: 100px;
     padding-top: 20px;
+    position: relative;
 }
 
 img.svg-image{
-   padding: 20px 20px;
+   padding: 20px 50px 0px 20px;
 }
 
 select.tabs-menu {
@@ -459,7 +471,7 @@ select.tabs-menu {
         font-family: Montserrat,sans-serif;
         font-size: 24px;
         font-weight: 700;
-        padding: 20px;
+        padding: 25px;
         background-color: white;
     }
 
