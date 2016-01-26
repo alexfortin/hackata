@@ -421,6 +421,10 @@ div.svg {
     position: relative;
 }
 
+img.svg-image{
+   padding: 20px 30px 0 20px;
+}
+
 select.tabs-menu {
     background-color: white;
     width: 290px;
@@ -431,8 +435,21 @@ select.tabs-menu {
 
 @media (max-width:760px) {
 
+    button.navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 12px 10px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
     a.up-arrow {
-        right: 45%;
+        right: 44%;
     }
 
     div.tabs {
@@ -474,6 +491,7 @@ select.tabs-menu {
         font-weight: 700;
         padding: 25px;
         background-color: white;
+        padding-left: 85px;
     }
 
     div.show-mobile {
@@ -504,10 +522,12 @@ select.tabs-menu {
 	}
 
 	div.contact {
-		top: 30%;
-		text-align: center;
 		color: #FFFFFF;
 		font-family: Montserrat,sans-serif;
+        margin-top: 50%;
+        text-align: center;
+        left: 0;
+        width: 100%;
 	}
 
 	div.location {
@@ -534,10 +554,5 @@ select.tabs-menu {
 
 	div.location a{
 		color: #FEFEFE
-	}
-
-	div.contact {
-		margin-top: 45%;
-		left: 23%;
 	}
 }
