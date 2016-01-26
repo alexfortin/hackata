@@ -435,6 +435,10 @@ select.tabs-menu {
 
 @media (max-width:760px) {
 
+    div.menu {
+        padding: 0px 20px 20px;
+    }
+
     span.menu-item-description {
         width: 100%;
     }
