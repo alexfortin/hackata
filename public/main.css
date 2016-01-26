@@ -246,7 +246,7 @@ span.menu-download {
 div.location {
 	position: absolute;
 	text-align: center;
-	top: 40%;
+	top: 35%;
 	left: 8%;
 	width: 50%;
 }
@@ -541,7 +541,7 @@ select.tabs-menu {
     text-align: center;
     left: 0%;
     width: 100%;
-    top: 21%;
+    top: 20%;
 	}
 
 	.location-name {
