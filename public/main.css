@@ -433,6 +433,10 @@ select.tabs-menu {
     font-family: 'Work Sans', sans-serif;
 }
 
+div.container {
+    padding-right: 15px;
+}
+
 @media (max-width:760px) {
 
     div.menu {
@@ -497,7 +501,7 @@ select.tabs-menu {
         font-family: Montserrat,sans-serif;
         font-size: 24px;
         font-weight: 700;
-        padding: 25px 25px 25px 75px
+        padding: 25px 25px 25px 75px;
         background-color: white;
     }
 
@@ -542,6 +546,7 @@ select.tabs-menu {
     left: 0%;
     width: 100%;
     top: 20%;
+
 	}
 
 	.location-name {
