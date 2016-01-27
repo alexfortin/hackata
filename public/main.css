@@ -488,6 +488,7 @@ div.container {
     }
 
     select.tabs-menu {
+        -webkit-appearance: none;
         background-color: white;
         width: 210px;
         height: 40px;
