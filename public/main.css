@@ -12,14 +12,13 @@
 	}
 
  img#background {
-	 /*background-image: url("hero.jpg");*/
-	 background-position: center 0%;
-   background-repeat: no-repeat;
-	 height: 815px;
-	 width: 100%;
-	 position: absolute;
-	 z-index: -1;
-	 opacity: .6;
+     background-position: center 0%;
+     background-repeat: no-repeat;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     z-index: -1;
+     opacity: .6;
  }
 
  div.about-text {
