@@ -31,10 +31,82 @@ module.exports =  React.createClass({
                         <TabDropdown.Panel title='Baked Rolls (8pcs)'>
                             <BakedRolls></BakedRolls>
                         </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Tempura Rolls (8-10pcs)'>
+                            <TempuraRoll></TempuraRoll>
+                        </TabDropdown.Panel>
                     </TabDropdown>
                 </div>
             </div>
 
+        );
+    }
+});
+
+var TempuraRoll = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="menu-item">
+                    <span className="menu-item-name">Texas Roll</span><span className="menu-price">9.95</span>
+                    <span className="menu-item-description">Spicy yellow tail, salmon, jalepeno, and avocado deep fried</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Out of Control Roll</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Shrimp tempura, avocado, and tuna topped with spicy shrimp</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Sunny Roll</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Shrimp tempura, spicy tuna, cucumber, tuna, and caviar</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Las Vegas Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Eel, smoked salmon, crab, cream cheese, avocado deep fried</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Energy Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Eel, tuna, avocado, cream cheese deep fried</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Hot Night Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp Tempura, avocado topped with spicy tuna and scallion</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">No Name Roll</span><span className="menu-price">9.95</span>
+                    <span className="menu-item-description">Tuna, salmon, white tuna, cream cheese deep fried</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Crunch Shrimp Roll</span><span className="menu-price">8.95</span>
+                    <span className="menu-item-description">Crunch batter, crab, shrimp, and avocado</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Play Boy Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp tempura, avocado, crab, and tuna</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Play Girl Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp tempura, avocado, crab, and salmon</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Kiss of Fire</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Shrimp tempura, spicy tuna, jalepeno, and torched escolar</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Red Devil Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp tempura, cream cheese, avocado, and kanikama</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Shrimp Killer Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp tempura, crab, and avocado topped with shrimp</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Texas Ranger's Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp tempura, crab, avocado, and torched scallop</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Dinosaur Roll</span><span className="menu-price">12.95</span>
+                    <span className="menu-item-description">Shrimp tempura, jalepeno, avocado, eel, and masago</span>
+                </p>
+            </div>
         );
     }
 });
