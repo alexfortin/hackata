@@ -5,6 +5,13 @@
 	font-weight: normal;
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
 	div#intro {
 		position: relative;
 		max-width: 1440px;
