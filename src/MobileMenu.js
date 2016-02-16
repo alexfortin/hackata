@@ -7,7 +7,7 @@ module.exports =  React.createClass({
             <div className="menu-wrapper">
                 <span className="menu-title">MENU</span>
                 <br></br>
-                <span className="menu-download">Download PDF</span>
+                <a className="menu-download" href="togomenu.pdf">Download PDF</a>
                 <div className="menu">
                     <TabDropdown tabActive={1}>
                         <TabDropdown.Panel title='Appetizers'>

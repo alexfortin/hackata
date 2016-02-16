@@ -303,11 +303,12 @@ span.menu-title {
   font-family: Montserrat Ultra Light;
 }
 
-span.menu-download {
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-family: 'Work Sans', sans-serif;
-  color: #999999
+a.menu-download {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    color: #999999;
+    text-decoration: none;
 }
 
  div.menu-body {
