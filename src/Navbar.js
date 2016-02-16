@@ -6,13 +6,13 @@ module.exports= React.createClass({
   render: function (){
     return (
       <Sticky className="navbar" topOffset={60} stickyStyle={stickyNavBar}>
+        <div className="title">Hakata Sushi</div>
         <span id="target-menu">
             <a href="#menu-tab">MENU</a>
         </span>
         <span id="target-menu">
             <a href="#location-info">LOCATION AND HOURS</a>
         </span>
-        <span className="title">Hakata Sushi</span>
         <span id="target-contact">
             <a href="#contact-info">CONTACT</a>
         </span>
@@ -35,8 +35,7 @@ var stickyNavBar = {
     display: 'block',
     zIndex: '1',
     margin: '0 auto',
-    height: '100px',
-    paddingTop: '25px'
+    height: '100px'
 };
 
 var stickyHeaderStyle = {

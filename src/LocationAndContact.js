@@ -36,7 +36,8 @@ var Contact = React.createClass({
       <div className="contact">
         <div className="hours">
           <p>Hours</p>
-          <p>Mon-Sat 9am-11pm</p>
+          <p>Mon-Th 11am-9:30pm</p>
+          <p>Fri-Sat 12pm-10:00pm</p>
           <p>Sun Closed</p>
         </div>
         <div className="phone">

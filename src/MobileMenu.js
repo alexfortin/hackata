@@ -20,9 +20,9 @@ module.exports =  React.createClass({
                             <HakataSushi></HakataSushi>
                         </TabDropdown.Panel>
                         <TabDropdown.Panel title='Sashimi'>
-                            <Appetizers></Appetizers>
+                            <Sashimi></Sashimi>
                         </TabDropdown.Panel>
-                        <TabDropdown.Panel title='Standard Rolls & Hand Rolls'>
+                        <TabDropdown.Panel title='Standard & Hand Rolls'>
                             <StandardRolls></StandardRolls>
                         </TabDropdown.Panel>
                         <TabDropdown.Panel title='Fresh Rolls (8pcs)'>
@@ -34,10 +34,291 @@ module.exports =  React.createClass({
                         <TabDropdown.Panel title='Tempura Rolls (8-10pcs)'>
                             <TempuraRoll></TempuraRoll>
                         </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Sushi Bar Lunch Specials'>
+                            <SushiLunchSpecial></SushiLunchSpecial>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Lunch Specials'>
+                            <LunchSpecial></LunchSpecial>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Donburi'>
+                            <Donburi></Donburi>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Noodles'>
+                            <Noodles></Noodles>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Kids Menu'>
+                            <Kids></Kids>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Desserts'>
+                            <Deserts></Deserts>
+                        </TabDropdown.Panel>
+                        <TabDropdown.Panel title='Beverages'>
+                            <Beverages></Beverages>
+                        </TabDropdown.Panel>
                     </TabDropdown>
                 </div>
             </div>
 
+        );
+    }
+});
+
+var LunchSpecial = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <div className="sub-menu-title">Bento Box Mini</div>
+                <div className="combo-title-desc">Served with rice, miso soup, 1pc of gyoza, and 1 egg roll</div>
+                <p className="menu-item">
+                    <span className="menu-item-name">Chicken Teriyaki of Spicy Chicken</span><span className="menu-price">6.95</span>
+                    <span className="menu-item-description">Grilled chicken with teriyaki sauce or spicy sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Shrimp Teriyaki</span><span className="menu-price">8.95</span>
+                    <span className="menu-item-description">Grilled shrimp with teriyaki sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Salmon Teriyaki</span><span className="menu-price">8.95</span>
+                    <span className="menu-item-description">Char rock broiled salmon seasoned with teriyaki sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Bulgogi (Beef or Spicy Pork)</span><span className="menu-price">7.95</span>
+                    <span className="menu-item-description">Marinated sliced rib-eye steak or pork with spicy sauce</span>
+                </p>
+                <div className="sub-menu-title">Bento Box</div>
+                <div className="combo-title-desc">Served with rice, house salad, miso soup, 2pcs of sushi, 4pcs of California roll, 1pc of gyoza, and an egg roll</div>
+                <p className="menu-item">
+                    <span className="menu-item-name">Chicken Teriyaki of Spicy Chicken</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Grilled chicken with teriyaki sauce or spicy sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Shrimp Teriyaki</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Grilled shrimp with teriyaki sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Salmon Teriyaki</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Char rock broiled salmon seasoned with teriyaki sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Bulgogi (Beef or Spicy Pork)</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Marinated sliced rib-eye steak or pork with spicy sauce</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Tempura (Shrimp & Vegatable)</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">2pcs of shrimp and assorted vegetables in tempura</span>
+                </p>
+                <div className="sub-menu-title">Roll Combinations</div>
+                <p className="menu-item">
+                    <span className="menu-item-name">One Roll Combination</span><span className="menu-price">5.50</span>
+                    <span className="menu-item-description">One California roll (8pcs) and one house special roll (3pcs)</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Two Roll Combination</span><span className="menu-price">7.95</span>
+                    <span className="menu-item-description">Two California roll (16pcs) and one house special roll (3pcs)</span>
+                </p>
+                <div className="list-container">
+                    <div className="q-title-desc">*You may substitute a California roll for</div>
+                    <li className="s-menu-item-description">Tuna or Salmon roll +$1</li>
+                    <li className="s-menu-item-description">Spicy Tuna/Salmon roll, Eel roll, or Philly +$2</li>
+                    <li className="s-menu-item-description">Shrimp Tempura roll, Spider roll, or Gibbisan roll +$3</li>
+                    <li className="s-menu-item-description">Dragon roll, Rainbow roll, or Lion King roll +$4</li>
+                </div>
+            </div>
+        );
+    }
+});
+
+var Kids = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="menu-item">
+                    <span className="menu-item-name">Dino Nuggets (6pcs)</span><span className="menu-price">6.95</span>
+                    <span className="menu-item-description">Chicken nuggets with fries and steamed rice</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Fried Crab Sticks</span><span className="menu-price">6.95</span>
+                    <span className="menu-item-description">Fried crab sticks with fries and steamed rice</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Chicken Teriyaki with steamed rice</span><span className="menu-price">6.95</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var Noodles = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="menu-item">
+                    <span className="menu-item-name">Vegetable Yakisoba or Yakiudon</span><span className="menu-price">8.95</span>
+                    <span className="menu-item-description">Stir fried Japanese Yakisoba noodles with assorted vegetables. Add chicken +$1. Add beef or shrimp +$2</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Hakata Udon</span><span className="menu-price">8.95</span>
+                    <span className="menu-item-description">Udon noodle in broth topped with scallions, seaweed, and fish cakes. Add chicken or shrimp tempura +$1</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var SushiLunchSpecial = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <div className="sub-menu-title">Sushi and Roll Combinations</div>
+                <div className="combo-title-desc">5pcs Nigiri (White fish, Hamachi, Maguro, Tai, Sake) served with miso soup + 1 choice below</div>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">A. California Roll</span><span className="r-menu-pcs">8.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">B. Tuna or Salmon Alvocado Roll</span><span className="r-menu-pcs">9.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">C. Spice Tuna or Spicy Salmon Roll</span><span className="r-menu-pcs">10.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">D. Eel & Avocado or Philly Roll</span><span className="r-menu-pcs">10.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">E. Rainbow or Dragon Roll</span><span className="r-menu-pcs">11.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="menu-item-name">F. 8pcs Chef's Choice Sushi</span><span className="r-menu-pcs">10.95</span>
+                </p>
+                <br></br>
+                <p className="r-menu-item">
+                    <span className="menu-item-name">Salmon Combo</span><span className="menu-price">14.95</span>
+                    <span className="menu-item-description">9pcs of sashimi (tuna, salmon, white fish), salmon roll, and house special roll (3pcs)</span>
+                </p>
+                <p className="r-menu-item">
+                    <span className="menu-item-name">Sushi & Sashimi Combo</span><span className="menu-price">16.95</span>
+                    <span className="menu-item-description">5pcs of sushi, 4pcs of salmon sashimi, tuna roll, and house special roll (3pcs)</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var Donburi = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <div className="combo-title-desc">Rice topped with egg, cabbage, onion, and scallion</div>
+                <p className="menu-item">
+                    <span className="menu-item-name">Katsudon (Deep Fried Pork or Chicken)</span><span className="menu-price">8.95</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Oyakodon (Chicken)</span><span className="menu-price">10.95</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Tendon (Deep Fried Shrimp)</span><span className="menu-price">10.95</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var Sashimi = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name"></span><span className="menu-pcs">5pcs</span><span className="menu-pcs">9pcs</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">Maguro (Tuna Big Eye)</span><span className="menu-pcs">10.95</span><span className="menu-pcs">16.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">Sake (Salmon)</span><span className="menu-pcs">10.95</span><span className="menu-pcs">16.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">Escolar (Super White Tuna)</span><span className="menu-pcs">10.95</span><span className="menu-pcs">16.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">Hamachi (Yellow Tail)</span><span className="menu-pcs">11.95</span><span className="menu-pcs">18.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">Mixed Trio (Choice of 3)</span><span className="menu-pcs">-</span><span className="menu-pcs">19.95</span>
+                </p>
+                <div className="sub-menu-title">Mixed Sushi/Sashimi Platters</div>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">7 Sushi & 9 Sashimi</span><span className="c-menu-pcs">27.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">10 Sushi & 16 Sashimi</span><span className="c-menu-pcs">45.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">14 Pieces of Sushi</span><span className="c-menu-pcs">25.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">20 Pieces of Sashimi</span><span className="c-menu-pcs">22.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">30 Pieces of Sashimi</span><span className="c-menu-pcs">49.95</span>
+                </p>
+                <div className="sub-menu-title">Sushi Combo (Chefs Choice)</div>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">4pcs Sushi & California Roll</span><span className="c-menu-pcs">10.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">4pcs Sushi & Spicy Tuna or Spice Salmon</span><span className="c-menu-pcs">12.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">6pcs Sushi & California Roll</span><span className="c-menu-pcs">13.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">6pcs Sushi & Spicy Tuna or Spice Salmon</span><span className="c-menu-pcs">15.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">8pcs Sushi & California Roll</span><span className="c-menu-pcs">16.95</span>
+                </p>
+                <p className="s-menu-item">
+                    <span className="s-menu-item-name">8pcs Sushi & Spicy Tuna or Spice Salmon</span><span className="c-menu-pcs">18.95</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var Beverages = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="menu-item">
+                    <span className="menu-item-name">Soda</span><span className="menu-price">1.50</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Iced Tea</span><span className="menu-price">1.50</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Hot Tea</span><span className="menu-price">1.95</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Juice or Ramune (Japanese Soda)</span><span className="menu-price">1.95</span>
+                </p>
+            </div>
+        );
+    }
+});
+
+var Deserts = React.createClass({
+    render: function() {
+        return (
+            <div className="menu">
+                <p className="menu-item">
+                    <span className="menu-item-name">Green Tea, Red Bean, or Plum Ice Cream</span><span className="menu-price">3.95</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Tempura Ice Cream</span><span className="menu-price">3.95</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Mochi Ice Cream</span><span className="menu-price">3.95</span>
+                </p>
+            </div>
         );
     }
 });

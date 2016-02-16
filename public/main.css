@@ -11,6 +11,10 @@
 		margin: 0 auto;
 	}
 
+#menu-tab {
+    /*top: -1000px;*/
+}
+
  img#background {
      background-position: center 0%;
      background-repeat: no-repeat;
@@ -55,9 +59,9 @@ img.map-background {
 	opacity: .4;
 }
 
-span.title {
+div.title {
     font-family: Montserrat,sans-serif;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -169,12 +173,14 @@ div.menu {
 }
 
 span.menu-item-name {
-    width: 75%;
+    width: 60%;
     display: inline-block;
     text-align: left;
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 900;
+    padding-bottom: 10px;
+    vertical-align: top;
 }
 
 p.menu-item {
@@ -195,9 +201,76 @@ span.menu-price {
     font-weight: 900;
 }
 
+div.sub-menu-title-desc {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+span.s-menu-price {
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+span.menu-pcs {
+    width: 80px;
+    text-align: right;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+span.c-menu-pcs {
+    width: 10%;
+    padding-right: 25px;
+    font-family: 'Work Sans',sans-serif;
+    padding-left: 30px;
+    padding-left: 30px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+span.s-menu-item-name {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+p.s-menu-item {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 span.menu-item-description {
     width: 75%;
     display: block;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+div.list-container {
+    max-width: 381px;
+    margin: 0 auto;
+}
+
+span.s-menu-item-description {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li.s-menu-item-description {
     text-align: left;
     font-size: 14px;
     font-family: 'Work Sans', sans-serif;
@@ -316,7 +389,7 @@ div.tabs {
 }
 
 article.tab-panel {
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .tabs-navigation {
@@ -438,12 +511,56 @@ div.container {
 
 div.menu-title-desc {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     font-family: 'Work Sans',sans-serif;
     font-weight: 300;
 }
 
+span.r-menu-pcs {
+    padding-left: 60px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+p.r-menu-item {
+    max-width: 400px;
+    vertical-align: top;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+div.combo-title-desc {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 300;
+}
+
+div.q-title-desc {
+    text-align: left;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 300;
+}
+
+div.sub-menu-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+
 @media (max-width:760px) {
+
+    span.r-menu-pcs {
+        padding-left: 44px;
+        text-align: right;
+        font-size: 15px;
+        font-weight: 900;
+    }
 
     div.menu {
         padding: 0px 20px 20px;
@@ -572,4 +689,18 @@ div.menu-title-desc {
 	div.location a{
 		color: #FEFEFE
 	}
+
+    span.menu-pcs {
+        width: 50px;
+        display: inline-block;
+        font-family: 'Work Sans',sans-serif;
+        text-align: right;
+        font-size: 15px;
+        font-weight: 900;
+        padding-bottom: 10px;
+    }
+
+    select.tabs-menu {
+        width: 230px;
+    }
 }
