@@ -14,7 +14,7 @@ module.exports= React.createClass({
             <a href="#location-info">LOCATION AND HOURS</a>
         </span>
         <span id="target-contact">
-            <a href="#contact-info">CONTACT</a>
+            <a href="#location-info">CONTACT</a>
         </span>
         <span id="target-about">
             <a href="#about-info">ABOUT</a>
