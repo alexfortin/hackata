@@ -5,7 +5,7 @@ module.exports= React.createClass({
     return (
       <div className="misc-info">
         <img src="map.jpg" className="map-background"></img>
-        <img src="hours.jpg" className="contact-background"></img>
+        <img src="Hours.jpg" className="contact-background"></img>
         <div id="location-info" className="location">
           <Location></Location>
         </div>

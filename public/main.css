@@ -15,6 +15,11 @@
     /*top: -1000px;*/
 }
 
+div.about-header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
  img#background {
      background-position: center 0%;
      background-repeat: no-repeat;
@@ -27,7 +32,7 @@
 
  div.about-text {
      font-family: 'Work Sans', sans-serif;
-     font-size: 16px;
+     font-size: 14px;
      line-height: 24px;
  }
 
@@ -350,6 +355,7 @@ div.hours {
 	display: inline-block;
 	z-index: -1;
 	width: 49.5%;
+    opacity: 0.4;
  }
 
 div.contact {
@@ -461,14 +467,13 @@ img.about-background {
 }
 
 .about-text {
-	margin: 0 auto;
-	padding-top: 110px;
-	text-align: center;
-	font-family: 'Work Sans', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-	color: #FFFFFF;
-	max-width: 770px;
+    margin: 0 auto;
+    padding-top: 75px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 770px;
 }
 
 div.show-mobile {
@@ -480,7 +485,7 @@ div.show-nav {
 }
 
 div.about {
-    height: 400px;
+    height: 290px;
 }
 
 div.svg {
