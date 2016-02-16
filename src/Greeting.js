@@ -5,9 +5,9 @@ module.exports= React.createClass({
     return (
       <div className="greeting">
         <div className="greeting-container">
-          <span className="greeting-title">Something Awesome</span>
+          <span className="greeting-title">Premium Sushi</span>
           <br></br>
-          <span className="greeting-body">I dont know what Im doing</span>
+          <span className="greeting-body">Affordable Prices</span>
         </div>
         <div className="menu-link">
           <a href="#menu-tab">VIEW MENU</a>

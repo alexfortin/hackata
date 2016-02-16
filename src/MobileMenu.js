@@ -172,22 +172,22 @@ var SushiLunchSpecial = React.createClass({
                 <div className="sub-menu-title">Sushi and Roll Combinations</div>
                 <div className="combo-title-desc">5pcs Nigiri (White fish, Hamachi, Maguro, Tai, Sake) served with miso soup + 1 choice below</div>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">A. California Roll</span><span className="r-menu-pcs">8.95</span>
+                    <span className="c-menu-item-name">A. California Roll</span><span className="r-menu-pcs">8.95</span>
                 </p>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">B. Tuna or Salmon Alvocado Roll</span><span className="r-menu-pcs">9.95</span>
+                    <span className="c-menu-item-name">B. Tuna or Salmon Alvocado Roll</span><span className="r-menu-pcs">9.95</span>
                 </p>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">C. Spice Tuna or Spicy Salmon Roll</span><span className="r-menu-pcs">10.95</span>
+                    <span className="c-menu-item-name">C. Spice Tuna or Spicy Salmon Roll</span><span className="r-menu-pcs">10.95</span>
                 </p>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">D. Eel & Avocado or Philly Roll</span><span className="r-menu-pcs">10.95</span>
+                    <span className="c-menu-item-name">D. Eel & Avocado or Philly Roll</span><span className="r-menu-pcs">10.95</span>
                 </p>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">E. Rainbow or Dragon Roll</span><span className="r-menu-pcs">11.95</span>
+                    <span className="c-menu-item-name">E. Rainbow or Dragon Roll</span><span className="r-menu-pcs">11.95</span>
                 </p>
                 <p className="s-menu-item">
-                    <span className="menu-item-name">F. 8pcs Chef's Choice Sushi</span><span className="r-menu-pcs">10.95</span>
+                    <span className="c-menu-item-name">F. 8pcs Chef's Choice Sushi</span><span className="r-menu-pcs">10.95</span>
                 </p>
                 <br></br>
                 <p className="r-menu-item">
