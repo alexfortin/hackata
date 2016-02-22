@@ -143,6 +143,9 @@ var Kids = React.createClass({
                 <p className="menu-item">
                     <span className="menu-item-name">Chicken Teriyaki with steamed rice</span><span className="menu-price">6.95</span>
                 </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Vegetable Yakisoba</span><span className="menu-price">6.95</span>
+                </p>
             </div>
         );
     }
@@ -310,9 +313,6 @@ var Deserts = React.createClass({
         return (
             <div className="menu">
                 <p className="menu-item">
-                    <span className="menu-item-name">Green Tea, Red Bean, or Plum Ice Cream</span><span className="menu-price">3.95</span>
-                </p>
-                <p className="menu-item">
                     <span className="menu-item-name">Tempura Ice Cream</span><span className="menu-price">3.95</span>
                 </p>
                 <p className="menu-item">
@@ -470,7 +470,7 @@ var FreshRolls = React.createClass({
                     <span className="menu-item-description">California roll topped with tuna</span>
                 </p>
                 <p className="menu-item">
-                    <span className="menu-item-name">White Blanco</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-name">White Blanco</span><span className="menu-price">11.95</span>
                     <span className="menu-item-description">Salmon, crab, avocado topped with escolar</span>
                 </p>
                 <p className="menu-item">
@@ -737,7 +737,7 @@ var Appetizers = React.createClass({
                     <span className="menu-item-description">2pcs of shrimp and mixed vegetables</span>
                 </p>
                 <p className="menu-item">
-                    <span className="menu-item-name">Shrimp Tempura</span><span className="menu-price">7.95</span>
+                    <span className="menu-item-name">Shrimp Tempura</span><span className="menu-price">f.95</span>
                     <span className="menu-item-description">8pcs of Shrimp</span>
                 </p>
                 <p className="menu-item">
