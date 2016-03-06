@@ -727,4 +727,8 @@ div.sub-menu-title {
     select.tabs-menu {
         width: 230px;
     }
+
+    .about-text {
+        padding-top: 100px;
+    }
 }
