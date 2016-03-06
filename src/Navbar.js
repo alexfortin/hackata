@@ -13,9 +13,6 @@ module.exports= React.createClass({
         <span id="target-contact">
             <a href="#misc-info">CONTACT US</a>
         </span>
-        <span id="target-about">
-            <a href="#about-info">ABOUT</a>
-        </span>
       </Sticky>
     )
   }

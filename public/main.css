@@ -86,7 +86,7 @@ div.title {
  }
 
  div#navbar span{
-   margin-right: 40px
+    padding: 10px;
  }
 
  div#navbar {
