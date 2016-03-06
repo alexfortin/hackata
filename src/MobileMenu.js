@@ -737,7 +737,7 @@ var Appetizers = React.createClass({
                     <span className="menu-item-description">2pcs of shrimp and mixed vegetables</span>
                 </p>
                 <p className="menu-item">
-                    <span className="menu-item-name">Shrimp Tempura</span><span className="menu-price">f.95</span>
+                    <span className="menu-item-name">Shrimp Tempura</span><span className="menu-price">8.95</span>
                     <span className="menu-item-description">8pcs of Shrimp</span>
                 </p>
                 <p className="menu-item">
