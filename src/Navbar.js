@@ -10,11 +10,8 @@ module.exports= React.createClass({
         <span id="target-menu">
             <a href="#menu-tab">MENU</a>
         </span>
-        <span id="target-menu">
-            <a href="#location-info">LOCATION AND HOURS</a>
-        </span>
         <span id="target-contact">
-            <a href="#contact-info">CONTACT</a>
+            <a href="#misc-info">CONTACT US</a>
         </span>
         <span id="target-about">
             <a href="#about-info">ABOUT</a>
