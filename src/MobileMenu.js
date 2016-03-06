@@ -194,7 +194,7 @@ var SushiLunchSpecial = React.createClass({
                 </p>
                 <br></br>
                 <p className="r-menu-item">
-                    <span className="menu-item-name">Salmon Combo</span><span className="menu-price">14.95</span>
+                    <span className="menu-item-name">Sashimi Combo</span><span className="menu-price">14.95</span>
                     <span className="menu-item-description">9pcs of sashimi (tuna, salmon, white fish), salmon roll, and house special roll (3pcs)</span>
                 </p>
                 <p className="r-menu-item">
