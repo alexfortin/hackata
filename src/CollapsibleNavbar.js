@@ -29,7 +29,7 @@ module.exports= React.createClass({
                     <Nav>
                         <MenuItem onClick={ this.onNavItemClick } eventKey={1} href="#menu-tab">MENU</MenuItem>
                         <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#location-img">LOCATION</MenuItem>
-                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#contact-img">CONTACT US</MenuItem>
+                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#contact-info">CONTACT US</MenuItem>
                         <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#about-info">ABOUT</MenuItem>
                     </Nav>
                 </Navbar.Collapse>
