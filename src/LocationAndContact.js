@@ -4,8 +4,8 @@ module.exports= React.createClass({
   render: function (){
     return (
       <div className="misc-info">
-        <img src="map.jpg" className="map-background"></img>
-        <img src="Hours.jpg" className="contact-background"></img>
+        <img src="map.jpg" id="location-image" className="map-background"></img>
+        <img src="Hours.jpg" id="contact-image" className="contact-background"></img>
         <div id="location-info" className="location">
           <Location></Location>
         </div>
