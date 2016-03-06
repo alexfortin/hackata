@@ -28,8 +28,8 @@ module.exports= React.createClass({
                 <Navbar.Collapse>
                     <Nav>
                         <MenuItem onClick={ this.onNavItemClick } eventKey={1} href="#menu-tab">MENU</MenuItem>
-                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#misc-info">LOCATION AND HOURS</MenuItem>
-                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#misc-info">CONTACT</MenuItem>
+                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#location-info">LOCATION AND HOURS</MenuItem>
+                        <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#contact-info">CONTACT</MenuItem>
                         <MenuItem onClick={ this.onNavItemClick } eventKey={2} href="#about-info">ABOUT</MenuItem>
                     </Nav>
                 </Navbar.Collapse>

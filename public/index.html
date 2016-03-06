@@ -7,7 +7,12 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Work+Sans'>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat+Alternates'>
-<body>
+  <script>
+    var shiftWindow = function() { scrollBy(0, -50) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+  </script>
+<body onload="load()">
   <div id=intro>
     <img src="herro.jpg"id="background">
     <div id=navbar-body>
