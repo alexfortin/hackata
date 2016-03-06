@@ -487,7 +487,7 @@ img.about-background {
 
 .about-text {
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 130px;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -504,7 +504,7 @@ div.show-nav {
 }
 
 div.about {
-    height: 300px;
+    height: 400px;
 }
 
 div.svg {
