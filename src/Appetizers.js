@@ -49,10 +49,6 @@ module.exports= React.createClass({
                 <span className="menu-item-description">Stuffed jalapeno with spicy tuna and cheese</span>
             </p>
             <p className="menu-item">
-                <span className="menu-item-name">Stuffed Avocado</span><span className="menu-price">7.95</span>
-                <span className="menu-item-description">Avocado stuffed with spicy crab and shrimp with cheese</span>
-            </p>
-            <p className="menu-item">
                 <span className="menu-item-name">House Salad</span><span className="menu-price">2.50</span>
                 <span className="menu-item-description">Salad with homemade ginger dressing</span>
             </p>
@@ -65,21 +61,25 @@ module.exports= React.createClass({
                 <span className="menu-item-description">Marinated Calamari</span>
             </p>
             <p className="menu-item">
-                <span className="menu-item-name">Sunomono</span><span className="menu-price">3.95</span>
-                <span className="menu-item-description">Cucumber Salad</span>
-            </p>
-            <p className="menu-item">
                 <span className="menu-item-name">KaniSunomono</span><span className="menu-price">5.95</span>
                 <span className="menu-item-description">Crab and Cucumber Salad</span>
             </p>
             <p className="menu-item">
-                <span className="menu-item-name">Spicy Crab Muscle</span><span className="menu-price">5.95</span>
-                <span className="menu-item-description">4pcs of chopped and baked muscle </span>
+                <span className="menu-item-name">Spicy Popcorn Shrimp</span><span className="menu-price">5.95</span>
+                <span className="menu-item-description">Fried shrimp with spicy sauce</span>
             </p>
             <p className="menu-item">
-                <span className="menu-item-name">Spicy Red Snapper Salad</span><span className="menu-price">7.95</span>
-                <span className="menu-item-description">Salad with 8pcs of red snapper</span>
+                <span className="menu-item-name">Tempura Oyster</span><span className="menu-price">6.50</span>
+                <span className="menu-item-description">Fried oyster with spicy sauce</span>
             </p>
+            <p className="menu-item">
+                <span className="menu-item-name">Fish Fillets</span><span className="menu-price">7.95</span>
+                <span className="menu-item-description">Fried fish with homeade tartar sauce</span>
+            </p>
+            <p className="menu-item">
+                <span className="menu-item-name">Spicy Edamame</span><span className="menu-price">4.95</span>
+            </p>
+            <p><b>The sauces used in your favorite foods are made right here in our Restaurant</b></p>
         </div>
     )
   }

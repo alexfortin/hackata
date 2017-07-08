@@ -184,6 +184,10 @@ div.menu {
     padding: 0px 60px 20px;
 }
 
+p.appetizer-footer {
+    text-align: center;
+}
+
 span.menu-item-name {
     width: 60%;
     display: inline-block;
