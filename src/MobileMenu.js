@@ -78,7 +78,10 @@ var LunchSpecial = React.createClass({
                 <div className="list-container">
                     <div className="q-title-desc">*You may substitute a California roll for</div>
                     <li className="s-menu-item-description">Tuna or Salmon Avocado roll +$1</li>
-                    <li className="s-menu-item-description">Spicy Tuna, Salmon roll, Eel & Avocado roll, or Philly roll +$2</li>
+                    <li className="s-menu-item-description">Spicy Tuna +$2</li>
+                    <li className="s-menu-item-description">Salmon Roll +$2</li>
+                    <li className="s-menu-item-description">Eel & Avocado roll +$2</li>
+                    <li className="s-menu-item-description">Philly roll +$2</li>
                     <li className="s-menu-item-description">Shrimp Tempura roll or Spider roll +$3</li>
                     <li className="s-menu-item-description">Dragon roll, Rainbow roll, or Lion King roll +$4</li>
                 </div>
