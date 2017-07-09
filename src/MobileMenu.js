@@ -379,7 +379,7 @@ var TempuraRoll = React.createClass({
             <div className="menu">
                 <p className="menu-item">
                     <span className="menu-item-name">Texas Roll</span><span className="menu-price">9.95</span>
-                    <span className="menu-item-description">Spicy yellow tail, salmon, jalepeno, and avocado deep fried</span>
+                    <span className="menu-item-description">Spicy yellowtail, salmon, jalepeno, and avocado deep fried</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Out of Control Roll</span><span className="menu-price">11.95</span>
@@ -387,7 +387,7 @@ var TempuraRoll = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Sunny Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Shrimp tempura, spicy tuna, cucumber, tuna, and caviar</span>
+                    <span className="menu-item-description">Shrimp tempura, spicy tuna, cucumber, tuna, and tobiko</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Las Vegas Roll</span><span className="menu-price">10.95</span>
@@ -407,23 +407,23 @@ var TempuraRoll = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Crunch Shrimp Roll</span><span className="menu-price">8.95</span>
-                    <span className="menu-item-description">Crunch batter, crab, shrimp, and avocado</span>
+                    <span className="menu-item-description">Crunch batter, crab, shrimp, avocado, eel sauce, and honey wasabi</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Play Boy Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Shrimp tempura, avocado, crab, and tuna</span>
+                    <span className="menu-item-description">Shrimp tempura, avocado, crab topped with tuna</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Play Girl Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Shrimp tempura, avocado, crab, and salmon</span>
+                    <span className="menu-item-description">Shrimp tempura, avocado, crab topped with salmon</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Kiss of Fire</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Shrimp tempura, spicy tuna, jalepeno, and torched escolar</span>
+                    <span className="menu-item-description">Shrimp tempura, spicy tuna, jalepeno topped with  torched escolar and green onions</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Red Devil Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Shrimp tempura, cream cheese, avocado, and kanikama</span>
+                    <span className="menu-item-description">Shrimp tempura, cream cheese, avocado with kanikama</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Shrimp Killer Roll</span><span className="menu-price">10.95</span>
@@ -431,7 +431,11 @@ var TempuraRoll = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Texas Ranger's Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Shrimp tempura, crab, avocado, and torched scallop</span>
+                    <span className="menu-item-description">Shrimp tempura, crab, avocado topped with torched scallop</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Black Dragon Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Fried shrimp, asparagus, cream cheese topped with eel</span>
                 </p>
             </div>
         );
@@ -456,11 +460,11 @@ var BakedRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Fire Scallop Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">California roll topped with baked scallop</span>
+                    <span className="menu-item-description">California roll topped with baked scallop and masago</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Snow Cone Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Crab, alvocado topped with baked red snapper</span>
+                    <span className="menu-item-description">Crab, alvocado, cream cheese topped with baked red snapper</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Dynamite Roll</span><span className="menu-price">11.95</span>
@@ -468,7 +472,7 @@ var BakedRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Spicy Crawfish Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Baked crawfish, jalepeno on California roll and spicy sauce</span>
+                    <span className="menu-item-description">Crab, jalepeno, avocado topped with spicy baked crawfish and spicy sauce</span>
                 </p>
             </div>
         );
@@ -485,27 +489,27 @@ var FreshRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Cherry Blossom</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Ralmon, avocado, crab, topped with tuna and caviar</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Pflugerville Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Spicy scallop, cucumber, topped with salmon</span>
+                    <span className="menu-item-description">Ralmon, avocado, crab, topped with tuna and tobiko</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Super Philly Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Smoked salmon, cream cheese, avocado, and salmon with crunch</span>
+                    <span className="menu-item-description">Smoked salmon, cream cheese, avocado, topped with salmon and crunch</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Lone Star Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Salmon, tuna, yellow tail, white tuna, avocado, and caviar</span>
+                    <span className="menu-item-description">Salmon, tuna, yellowtail, escolar, avocado, and tobiko</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Spicy Crunch Roll</span><span className="menu-price">7.95</span>
-                    <span className="menu-item-description">Crab, avocado, jalepeno, cream cheese, with crunch</span>
+                    <span className="menu-item-description">Crab, avocado, jalepeno, cream cheese with crunch</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Pflugerville Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Spicy scallop, cucumber, topped with salmon and avocado</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Austin Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Spice salmon, escolar, red snapper, jalepeno, lemon, and kani</span>
+                    <span className="menu-item-description">Spice salmon, escolar, red snapper, jalepeno, lemon topped with  kani</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Spring Roll</span><span className="menu-price">9.95</span>
@@ -517,35 +521,7 @@ var FreshRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">White Blanco</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Salmon, crab, avocado topped with escolar</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Spicy Tuna Tataki Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Spicy tuna topped with tuna tataki, masago, and green onions</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Spicy Salmon Tataki Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Spicy salmon and cucumber topped with salmon tataki, crunch, and masago</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">911 Roll</span><span className="menu-price">9.95</span>
-                    <span className="menu-item-description">Salmon, tuna, yellow tail, avocado, jalepeno, and kani</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Hakata Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Tuna, salmon, pineapple, cucumber, and kani</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Orgasm Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Shrimp, avocado, cucumber with spicy shrimp and crunch</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Lion King Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">California roll topped with torched salmon</span>
-                </p>
-                <p className="menu-item">
-                    <span className="menu-item-name">Black Hole Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Half tuna half salmon, cucumber, and avocado topped with eel</span>
+                    <span className="menu-item-description">Salmon, kani, avocado topped with escolar and tobiko</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Paradise Roll</span><span className="menu-price">11.95</span>
@@ -553,11 +529,39 @@ var FreshRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Kazy Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Eel, avocado, topped with tuna and black Tobiko</span>
+                    <span className="menu-item-description">Eel, avocado, topped with tuna, black tobiko, and eel sauce</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Cheviche Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Tuna, salmon, redsnapper, jalepeno, cilantro, spicy coktail sauce topped with salmon and masago</span>
+                    <span className="menu-item-description">Tuna, salmon, red snapper, spicy cocktail sauce, cilantro, jalapeno topped with salmon masago and spicy mayo</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Spicy Tuna Tataki Roll</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Spicy tuna and cucumber topped with tuna tataki, masago, and green onions</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Spicy Salmon Tataki Roll</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Spicy salmon, cucumber, avocado topped with salmon tataki, crunch, and masago</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">911 Roll</span><span className="menu-price">9.95</span>
+                    <span className="menu-item-description">Salmon, tuna, yellow tail, avocado, jalepeno topped with  kani</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Orgasm Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Shrimp, avocado, cucumber with spicy shrimp and crunch</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Lion King Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Spicy crab, avocado topped with torched salmon</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Black Hole Roll</span><span className="menu-price">11.95</span>
+                    <span className="menu-item-description">Tuna, salmon, cucumber, and avocado topped with eel</span>
+                </p>
+                <p className="menu-item">
+                    <span className="menu-item-name">Volcano Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Spicy tuna and cucumber topped with chopped avocado and crunch</span>
                 </p>
             </div>
         );
