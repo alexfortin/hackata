@@ -363,7 +363,7 @@ var Deserts = React.createClass({
                     <span className="menu-item-name">Mochi Ice Cream</span><span className="menu-price">3.95</span>
                 </p>
                 <p className="menu-item">
-                    <span className="menu-item-name">Tempura Ice Cream</span><span className="menu-price">4.95</span>
+                    <span className="menu-item-name">Tempura Ice Cream</span><span className="menu-price">5.95</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Chocolate Cheesecake</span><span className="menu-price">4.95</span>
@@ -378,8 +378,8 @@ var TempuraRoll = React.createClass({
         return (
             <div className="menu">
                 <p className="menu-item">
-                    <span className="menu-item-name">Texas Roll</span><span className="menu-price">9.95</span>
-                    <span className="menu-item-description">Spicy yellowtail, salmon, jalepeno, and avocado deep fried</span>
+                    <span className="menu-item-name">Texas Roll</span><span className="menu-price">10.95</span>
+                    <span className="menu-item-description">Yellowtail, spicy salmon, jalepeno, avocado, cheese and deep fried</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Out of Control Roll</span><span className="menu-price">11.95</span>
@@ -419,7 +419,7 @@ var TempuraRoll = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Kiss of Fire</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Shrimp tempura, spicy tuna, jalepeno topped with  torched escolar and green onions</span>
+                    <span className="menu-item-description">Shrimp tempura, spicy tuna, jalepeno topped with torched escolar, green onions, and masago</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Red Devil Roll</span><span className="menu-price">10.95</span>
@@ -448,7 +448,7 @@ var BakedRolls = React.createClass({
             <div className="menu">
                 <p className="menu-item">
                     <span className="menu-item-name">Baked Salmon Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Crab, cream cheese, avocado topped with salmon</span>
+                    <span className="menu-item-description">Crab, cream cheese, avocado topped with baked salmon</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Razzle Dazzle Roll</span><span className="menu-price">10.95</span>
@@ -460,7 +460,7 @@ var BakedRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Fire Scallop Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">California roll topped with baked scallop and masago</span>
+                    <span className="menu-item-description">California roll topped with scorched scallop and masago</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Snow Cone Roll</span><span className="menu-price">10.95</span>
@@ -468,7 +468,7 @@ var BakedRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Dynamite Roll</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Salmon tempura, crab, avocado with baked spicy salmon</span>
+                    <span className="menu-item-description">Salmon tempura, crab, avocado with baked spicy salmon and masago</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Spicy Crawfish Roll</span><span className="menu-price">10.95</span>
@@ -521,7 +521,7 @@ var FreshRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">White Blanco</span><span className="menu-price">11.95</span>
-                    <span className="menu-item-description">Salmon, kani, avocado topped with escolar and tobiko</span>
+                    <span className="menu-item-description">Salmon, crab, avocado topped with escolar and tobiko</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Paradise Roll</span><span className="menu-price">11.95</span>
@@ -553,7 +553,7 @@ var FreshRolls = React.createClass({
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Lion King Roll</span><span className="menu-price">10.95</span>
-                    <span className="menu-item-description">Spicy crab, avocado topped with torched salmon</span>
+                    <span className="menu-item-description">Spicy crab, avocado topped with torched salmon and onion crunch</span>
                 </p>
                 <p className="menu-item">
                     <span className="menu-item-name">Black Hole Roll</span><span className="menu-price">11.95</span>
